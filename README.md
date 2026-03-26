@@ -44,28 +44,50 @@ huggingface-cli download openbmb/RLHF-V-Dataset --repo-type dataset --local-dir 
 ### SFT Training
 Run the conversion script to produce LLaMA-Factory-compatible files in data/processed/:
 ```bash
-python scripts/convert_arrow_rlhf_v_to_sft.py data/raw/train.arrow
+python scripts/convert_rlhf_v_to_sft.py data/raw/train.parquet
 ```
 
 Run training using LLaMA-Factory:
 ```bash
-cd external/llama-factory
-llamafactory-cli train ../../configs/llama-factory/train/qwen3vl_lora_sft.yaml
+llamafactory-cli train configs/train/qwen3vl_lora_sft.yaml
 ```
 
 Perform merging for inference:
 ```bash
-llamafactory-cli export ../../configs/llama-factory/merge/qwen3vl_lora_sft.yaml
+llamafactory-cli export configs/merge/qwen3vl_lora_sft.yaml
 ```
 
 ### DPO Training
-Before running, set model_name_or_path in configs/llama-factory/train/qwen3vl_lora_dpo.yaml to either the base model HuggingFace ID (Qwen/Qwen3-VL-4B-Instruct) or the path to the merged SFT checkpoint.
+Before running, set model_name_or_path in configs/train/qwen3vl_lora_dpo.yaml to either the base model HuggingFace ID (Qwen/Qwen3-VL-4B-Instruct) or the path to the merged SFT checkpoint.
 
 To run DPO training:
 ```bash
-cd external/llama-factory
-llamafactory-cli train ../../configs/llama-factory/dpo_qwen3vl.yaml
+llamafactory-cli train configs/train/dpo_qwen3vl.yaml
 ```
+
+Perform merging for inference:
+```bash
+llamafactory-cli export configs/merge/qwen3vl_lora_dpo.yaml
+```
+
+### Text-Only DPO Training 
+Run the conversion script to produce LLaMA-Factory-compatible files in data/processed/:
+```bash
+python scripts/convert_rlhf_v_to_dpo_text_only.py data/raw/train.parquet
+```
+
+Perform Text-Only DPO training:
+```bash
+llamafactory-cli train configs/train/qwen3vl_lora_dpo_text_only.yaml
+```
+
+Perform merging for inference:
+```bash
+llamafactory-cli export configs/merge/qwen3vl_lora_dpo_text_only.yaml
+```
+
+
+
 
 
 
