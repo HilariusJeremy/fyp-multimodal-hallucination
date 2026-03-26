@@ -26,7 +26,11 @@ cd fyp-multimodal-hallucination
 python -m venv venv
 source venv/bin/activate       # Windows: venv\Scripts\activate
 
-pip install -r requirements.txt
+# Install LLaMA-Factory
+pip install -e external/llama-factory[torch,metrics]
+
+# Install lmms-eval
+pip install -e external/lmms-eval
 ```
 
 ### Dataset
