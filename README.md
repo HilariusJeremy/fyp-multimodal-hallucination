@@ -15,7 +15,7 @@ Hallucination remains a critical challenge in vision-language models (VLMs), whe
 - CUDA 11.8+ (for GPU training)
 
 **Dataset**
-The preference data is loaded directly from HuggingFace: openbmb/RLHF-V-Dataset. It contains 5,733 preference pairs (chosen/rejected responses) across image-text tasks drawn from COCO, VQAv2, ShareGPT4V, and other sources. No manual download is required — the dataset is cached automatically to ~/.cache/huggingface/datasets/ on first use.
+The preference data is loaded directly from HuggingFace: [openbmb/RLHF-V-Dataset](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset). It contains 5,733 preference pairs (chosen/rejected responses) across image-text tasks drawn from COCO, VQAv2, ShareGPT4V, and other sources. No manual download is required — the dataset is cached automatically to ~/.cache/huggingface/datasets/ on first use.
 
 
 
