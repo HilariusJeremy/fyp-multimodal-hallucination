@@ -1,0 +1,53 @@
+# Submodule build artifacts
+external/llama-factory/*.egg-info/
+external/lmms-eval/*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (use HuggingFace or DVC — do not commit to git)
+data/raw/
+data/processed/
+!data/processed/.gitkeep
+
+# Model checkpoints (too large for git)
+results/checkpoints/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# Submodule build artifacts (don't commit compiled outputs from external/)
+external/llama-factory/output/
+external/lmms-eval/logs/
+
+# Logs
+results/logs/
+wandb/
+runs/
+*.log
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
