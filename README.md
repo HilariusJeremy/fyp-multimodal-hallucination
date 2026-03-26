@@ -17,8 +17,8 @@ Hallucination remains a critical challenge in vision-language models (VLMs), whe
 ### Installation
 ```bash
 # Clone with submodules
-git clone --recurse-submodules https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone --recurse-submodules https://github.com/HilariusJeremy/fyp-multimodal-hallucination.git
+cd fyp-multimodal-hallucination
 
 # If you already cloned without --recurse-submodules, run:
 # git submodule update --init --recursive
