@@ -1,6 +1,9 @@
 [submodule "external/llama-factory"]
 	path = external/llama-factory
-	url = https://github.com/hiyouga/LLaMA-Factory.git
+	url = https://github.com/HilariusJeremy/LlamaFactory.git
+[submodule "external/external/lmms-eval"]
+	path = external/external/lmms-eval
+	url = https://github.com/EvolvingLMMs-Lab/lmms-eval.git
 [submodule "external/lmms-eval"]
 	path = external/lmms-eval
 	url = https://github.com/EvolvingLMMs-Lab/lmms-eval.git
