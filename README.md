@@ -41,9 +41,16 @@ Download it once to data/raw/ using the HuggingFace CLI:
 huggingface-cli download openbmb/RLHF-V-Dataset --repo-type dataset --local-dir data/raw
 ```
 
-Then run the conversion script to produce LLaMA-Factory-compatible files in data/processed/:
+### SFT Training
+Run the conversion script to produce LLaMA-Factory-compatible files in data/processed/:
 ```bash
 python scripts/convert_arrow_rlhf_v_to_sft.py data/raw/train.arrow
+```
+
+Run training using LLaMA-Factory:
+```bash
+cd external/llama-factory
+llamafactory-cli train ../../configs/llama-factory/sft_qwen3vl.yaml
 ```
 
 
