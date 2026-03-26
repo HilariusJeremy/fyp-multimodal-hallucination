@@ -15,8 +15,7 @@ Hallucination remains a critical challenge in vision-language models (VLMs), whe
 - CUDA 11.8+ (for GPU training)
 
 ### Installation
-```
-bash
+```bash
 # Clone with submodules
 git clone --recurse-submodules https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
