@@ -14,8 +14,22 @@ Hallucination remains a critical challenge in vision-language models (VLMs), whe
 - Python 3.11+
 - CUDA 11.8+ (for GPU training)
 
+### Installation
+# Clone with submodules
+git clone --recurse-submodules https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+# If you already cloned without --recurse-submodules, run:
+# git submodule update --init --recursive
+
+python -m venv venv
+source venv/bin/activate       # Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
 ### Dataset
 The preference data is loaded directly from HuggingFace: [openbmb/RLHF-V-Dataset](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset). It contains 5,733 preference pairs (chosen/rejected responses) across image-text tasks drawn from COCO, VQAv2, ShareGPT4V, and other sources. No manual download is required as the dataset is cached automatically to ~/.cache/huggingface/datasets/ on first use.
+
 
 
 
