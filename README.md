@@ -50,7 +50,12 @@ python scripts/convert_arrow_rlhf_v_to_sft.py data/raw/train.arrow
 Run training using LLaMA-Factory:
 ```bash
 cd external/llama-factory
-llamafactory-cli train ../../configs/llama-factory/sft_qwen3vl.yaml
+llamafactory-cli train ../../configs/llama-factory/train/qwen3vl_lora_sft.yaml
+```
+
+Perform merging for inference:
+```bash
+llamafactory-cli export ../../configs/llama-factory/merge/qwen3vl_lora_sft.yaml
 ```
 
 
