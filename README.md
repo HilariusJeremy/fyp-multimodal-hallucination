@@ -58,6 +58,21 @@ Perform merging for inference:
 llamafactory-cli export ../../configs/llama-factory/merge/qwen3vl_lora_sft.yaml
 ```
 
+### DPO Training
+Before running, set model_name_or_path in configs/llama-factory/train/qwen3vl_lora_dpo.yaml to either the base model HuggingFace ID (Qwen/Qwen3-VL-4B-Instruct) or the path to the merged SFT checkpoint.
+
+To run DPO training:
+```bash
+cd external/llama-factory
+llamafactory-cli train ../../configs/llama-factory/dpo_qwen3vl.yaml
+```
+
+
+
+
+
+
+
 
 
 
