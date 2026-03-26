@@ -34,7 +34,12 @@ pip install -e external/lmms-eval
 ```
 
 ### Dataset
-The preference data is loaded directly from HuggingFace: [openbmb/RLHF-V-Dataset](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset). It contains 5,733 preference pairs (chosen/rejected responses) across image-text tasks drawn from COCO, VQAv2, ShareGPT4V, and other sources. No manual download is required as the dataset is cached automatically to ~/.cache/huggingface/datasets/ on first use.
+The preference data is loaded directly from HuggingFace: [openbmb/RLHF-V-Dataset](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset). It contains 5,733 preference pairs (chosen/rejected responses) across image-text tasks drawn from COCO, VQAv2, ShareGPT4V, and other sources.
+
+Download it once to data/raw/ using the HuggingFace CLI:
+```bash
+huggingface-cli download openbmb/RLHF-V-Dataset --repo-type dataset --local-dir data/raw
+```
 
 
 
