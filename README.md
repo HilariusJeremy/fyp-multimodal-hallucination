@@ -9,4 +9,10 @@ Hallucination remains a critical challenge in vision-language models (VLMs), whe
 - Fine-tune a VLM using DPO on a hallucination mitigation dataset (RLHF-V) and evaluate hallucination reduction.
 - Analyse effects of DPO training using reward and log-probabilities plots and trade-offs between hallucination mitigation and informativeness.
 
+### Setup
+**Prerequisites**
+Python 3.11+
+CUDA 11.8+ (for GPU training)
+
+
 
