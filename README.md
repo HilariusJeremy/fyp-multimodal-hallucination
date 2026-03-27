@@ -115,7 +115,7 @@ python eval_gpt4.py \
     --gpt-model gpt-4o \                  # or change as needed
     --evaluation results/<response_name>.json
 ```
-Evaluation results are saved to results/logs/ for comparison across model variants. Sample responses from previous runs are available in results/responses/ for reference.
+Evaluation results are saved to results/logs/ for comparison across model variants. Sample responses from previous runs are available in results/responses/ and final MMHalBench evaluation scores are in results/evals/ for reference.
 > Replicability note: MMHalBench scores are not guaranteed to be fully replicable. The GPT-4o judge is an external model with no random seed control, and scoring may vary slightly across API calls or model versions. Results should be treated as indicative rather than exact.
 
 
