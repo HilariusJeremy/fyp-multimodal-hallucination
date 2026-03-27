@@ -130,6 +130,14 @@ python -m lmms_eval \
   --output_path ../../results/logs/<model-name>/pope_results.json
 ```
 
+## Key Results
+| Model | POPE F1 ↑ | MMHalBench Score ↑ |
+|-------|-----------|-------------------|
+| Qwen3-VL-4B-Instruct (baseline) | - | - |
+| + DPO | - | - |
+| + SFT | - | - |
+| + SFT + DPO (ours) | - | - |
+
 
 
 
