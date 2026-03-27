@@ -135,6 +135,7 @@ python -m lmms_eval \
 |-------|-----------|-------------------|
 | Qwen3-VL-4B-Instruct (baseline) | - | - |
 | + DPO | - | - |
+| + Change-Beta | - | - |
 | + SFT | - | - |
 | + SFT + DPO (ours) | - | - |
 
