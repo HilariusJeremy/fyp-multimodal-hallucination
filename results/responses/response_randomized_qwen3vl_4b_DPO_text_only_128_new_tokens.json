@@ -1,0 +1,1602 @@
+[
+  {
+    "question_type": "attribute",
+    "question_topic": "outdoor",
+    "image_id": "df62a56fdc1bb12b",
+    "image_src": "https://c2.staticflickr.com/4/3810/9899405365_e2df3063b2_o.jpg",
+    "image_content": [
+      "Fire hydrant"
+    ],
+    "question": "What color is the fire hydrant cap in the picture?",
+    "gt_answer": "The color of the fire hydrant cap in the image is yellow.",
+    "model_answer": "There is no fire hydrant cap in the picture. The image shows a bouquet of blue and white flowers in a clear glass vase on a white desk, with a computer monitor, a laptop, and a colorful framed picture in the background. Fire hydrant caps are not present in this scene.",
+    "original_image_src": "https://c4.staticflickr.com/8/7211/7206072054_c53d53b97d_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "outdoor",
+    "image_id": "5b18b22f53ccc661",
+    "image_src": "https://farm7.staticflickr.com/6081/6150182374_f0923ac4b0_o.jpg",
+    "image_content": [
+      "Door",
+      "Building"
+    ],
+    "question": "Who is sitting on the bench?",
+    "gt_answer": "No one is sitting on the bench.",
+    "model_answer": "There is no one sitting on a bench in the image. The image shows four black hats and a black cloth bag hanging on a wall-mounted rack against a plain white wall.",
+    "original_image_src": "https://farm2.staticflickr.com/5443/7413067568_06a8d1eb64_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "outdoor",
+    "image_id": "71d35c01e3b47a47",
+    "image_src": "https://c6.staticflickr.com/7/6032/6333054847_854b033191_o.jpg",
+    "image_content": [
+      "Vase",
+      "Houseplant",
+      "Stool",
+      "Coffee table",
+      "Flower"
+    ],
+    "question": "Which wooden stool has a vase with red flower on it?",
+    "gt_answer": "The left wooden stool has a vase with a red flower on it.",
+    "model_answer": "I can't see any wooden stool or vase with a red flower in this image. The picture shows two hands \u2014 one with a ring on the ring finger and another with a wedding band \u2014 resting on a white lace garment, likely a wedding dress. There are no stools or floral arrangements visible in the image.",
+    "original_image_src": "https://farm8.staticflickr.com/137/383965780_db4815011c_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "outdoor",
+    "image_id": "2c0e54cb2dcad01d",
+    "image_src": "https://farm4.staticflickr.com/2503/3828840628_e625c9beb0_o.jpg",
+    "image_content": [
+      "Traffic light",
+      "Building",
+      "House",
+      "Street light",
+      "Tree"
+    ],
+    "question": "How many traffic lights are there in the image?",
+    "gt_answer": "There are four traffic lights in the image.",
+    "model_answer": "There are no traffic lights visible in the image. The image shows a silver Yamaha R6 motorcycle parked on a street, with red flower petals scattered on the sidewalk and curb, and a grassy area in the background. No traffic lights are present.",
+    "original_image_src": "https://c6.staticflickr.com/8/7618/16875241476_3b79e5d79b_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "outdoor",
+    "image_id": "03d45f0207d68aa2",
+    "image_src": "https://c6.staticflickr.com/9/8834/18414801440_47f21894da_o.jpg",
+    "image_content": [
+      "Traffic sign",
+      "Traffic light",
+      "Building"
+    ],
+    "question": "What colors are the traffic signs at the top, in the middle, and at the bottom?",
+    "gt_answer": "The traffic signs at the top and bottom are white, while the one in the center is blue.",
+    "model_answer": "The image provided does not contain any traffic signs. It shows a close-up of a slice of toasted bread with a golden-brown crust and a slightly melted, creamy filling, resting on a wooden surface. There are no signs or indicators of traffic-related elements in the image.\n\nTherefore, there are no colors to describe for traffic signs at the top, middle, or bottom.",
+    "original_image_src": "https://farm3.staticflickr.com/3640/3576366805_eea15333d5_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "outdoor",
+    "image_id": "2e1d92ec24b8f5f9",
+    "image_src": "https://farm8.staticflickr.com/195/502006488_2d907443d8_o.jpg",
+    "image_content": [
+      "Wheel"
+    ],
+    "question": "How would you describe the weather in the image?",
+    "gt_answer": "The photo was captured during nighttime, with a dark sky overhead. It depicts a Ferris wheel surrounded by people and illuminated by the lights.",
+    "model_answer": "Based on the visual cues in the image, the weather appears to be **sunny and warm**.\n\nHere's the reasoning:\n\n- **Lighting**: There is strong, direct sunlight illuminating the scene. You can see distinct, bright highlights on the cats' fur, the cushion, and the tiled floor. The shadows are relatively sharp, indicating a clear sky.\n- **Shadows**: A noticeable shadow is cast by the cushion and the cats onto the floor, which is consistent with sunlight coming from a specific angle.\n- **Cat Behavior**: The cats are relaxed and lying together on a cushion, which is typical behavior in warm,",
+    "original_image_src": "https://c2.staticflickr.com/4/3452/3788392512_2a3f537219_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "outdoor",
+    "image_id": "294aff231c7c290a",
+    "image_src": "https://farm2.staticflickr.com/5443/7413067568_06a8d1eb64_o.jpg",
+    "image_content": [
+      "Building",
+      "Street light",
+      "Tree",
+      "Traffic sign",
+      "Window"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The picture depicts a city street, recently dampened by rain, with a sidewalk lined by trees. There are several cars parked on the right, while others move along the road. A few pedestrians can be seen at a distance on the sidewalk, some of them holding umbrellas to protect themselves from the rain. The trees offer shade and lend a touch of nature to the urban setting. The scene exudes a sense of calm and serenity, emphasized by the glistening wet street and the nearly vacant walkway.",
+    "model_answer": "This is a detailed, eye-level photograph of the exterior of a small, local eatery named \"LATECA DE LAVIA\" on a quiet, sunlit street. The scene is captured during the day, with dappled sunlight filtering through tree leaves onto the paved sidewalk, creating a pattern of bright spots and shadows.\n\n**The Shopfront:**\n- **Signage:** Above the entrance, a prominent, cream-colored sign with a brown, decorative border displays the name \"LATECA DE LAVIA\" in a stylized, brown, slightly rustic font. The sign has curled ends, giving it a classic,",
+    "original_image_src": "https://c3.staticflickr.com/6/5558/14388226720_c54b67588a_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "outdoor",
+    "image_id": "2462520ae7b86d0e",
+    "image_src": "https://c1.staticflickr.com/1/28/47604332_c306b496b5_o.jpg",
+    "image_content": [
+      "Parking meter",
+      "Telephone"
+    ],
+    "question": "How much is it per hour to park at the parking meter?",
+    "gt_answer": "It is $4 per hour to park at the parking meter.",
+    "model_answer": "I can't determine the parking rate per hour from the image you provided. The image shows a white wired computer mouse with a USB connector, not a parking meter or any information related to parking fees.\n\nTo find out how much it costs to park per hour at a specific location, you would need to:\n\n- Check the parking meter or sign at the location.\n- Look up local parking regulations or city ordinances.\n- Use a parking app or website for the area.\n- Ask a local resident or staff member.\n\nIf you provide the city, street, or specific location, I may be able to help you find the rate \u2014 but based on",
+    "original_image_src": "https://c7.staticflickr.com/6/5506/11715451803_24861529ab_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "vehicle",
+    "image_id": "01e8509529aac2b8",
+    "image_src": "https://c2.staticflickr.com/8/7167/6555470659_4c69a30b73_o.jpg",
+    "image_content": [
+      "Car",
+      "Wheel",
+      "Land vehicle",
+      "Building"
+    ],
+    "question": "What color are the two cars from right to left in the image?",
+    "gt_answer": "The two cars from right to left in the image are black and blue.",
+    "model_answer": "Based on the image provided, there are no \"two cars\" visible from right to left in the foreground. The image shows a large United Airlines aircraft on the tarmac, with various ground service vehicles around it.\n\nLooking at the vehicles in the foreground, from right to left (as you would view the image), we can identify:\n\n1.  **A large, dark-colored (likely black or dark blue) tow tractor** positioned under the wing of the aircraft, near the engine. This is a ground support vehicle, not a car.\n2.  **A smaller, light-colored (white or light gray) vehicle** that appears",
+    "original_image_src": "https://c1.staticflickr.com/1/463/20076975362_949c5a1cdb_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "vehicle",
+    "image_id": "1cdd5f88863aec33",
+    "image_src": "https://c3.staticflickr.com/6/5554/14424649263_69118d3a3b_o.jpg",
+    "image_content": [
+      "Tire",
+      "Motorcycle",
+      "Wheel"
+    ],
+    "question": "What is the gender of the person riding the motorcycle in the image?",
+    "gt_answer": "No one is riding the motorcycle by the roadside in the image.",
+    "model_answer": "There is no person riding a motorcycle in the image. The image shows two Garmin watches \u2014 one with a black strap and another with a red strap \u2014 placed side by side against a white background. Neither of them is on a motorcycle, and no person is depicted at all. Therefore, the question is based on a false premise.",
+    "original_image_src": "https://farm4.staticflickr.com/2503/3828840628_e625c9beb0_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "vehicle",
+    "image_id": "50ba2afa85a784cb",
+    "image_src": "https://c6.staticflickr.com/7/6231/6209347220_846cc7f471_o.jpg",
+    "image_content": [
+      "Wheel",
+      "Building",
+      "Truck",
+      "Person",
+      "Auto part"
+    ],
+    "question": "In the image, which truck (left or right) has its door open?",
+    "gt_answer": "The fire truck, which is on the left side of the image, has its door open.",
+    "model_answer": "There is no truck in the image. The image shows a person wearing a top hat, sunglasses, and a beard, dressed in what appears to be steampunk or Victorian-style clothing. The background is blurred and does not contain any vehicles. Therefore, the question about which truck has its door open is not applicable.",
+    "original_image_src": "https://c4.staticflickr.com/2/1196/1424845359_c4945d38f1_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "vehicle",
+    "image_id": "aec20da322ac2ace",
+    "image_src": "https://c4.staticflickr.com/2/1196/1424845359_c4945d38f1_o.jpg",
+    "image_content": [
+      "Tree",
+      "Plant",
+      "Person",
+      "Land vehicle",
+      "Bicycle helmet",
+      "Sports equipment",
+      "Bicycle",
+      "Vehicle",
+      "Mammal",
+      "Bicycle wheel"
+    ],
+    "question": "How many bicycles are there in the image?",
+    "gt_answer": "In the image, there are four bicycles: two at the front, one in the middle, and one in the distance.",
+    "model_answer": "There are 0 bicycles in the image.",
+    "original_image_src": "https://c7.staticflickr.com/1/100/315943393_e2c5dc5bd7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "vehicle",
+    "image_id": "590b56abc568010b",
+    "image_src": "https://farm7.staticflickr.com/4128/4967650364_6b23e0e7de_o.jpg",
+    "image_content": [
+      "Person",
+      "Mammal",
+      "Boat"
+    ],
+    "question": "How is the yellow boat positioned in relation to the white yacht in the image?",
+    "gt_answer": "The yellow boat is positioned in front of the white yacht in the image.",
+    "model_answer": "Actually, there is no yellow boat or white yacht in the image. The image shows a white ceramic coffee mug with the word \u201cCOFFEE\u201d printed on it, along with scattered coffee beans and the word \u201ccoffee\u201d repeated in various orientations. Next to the mug is a matching white ceramic spoon and a small white saucer, both decorated with the same coffee-themed design. The background is black, and there are no boats or yachts present.\n\nTherefore, there is no positioning relationship between a yellow boat and a white yacht in this image.",
+    "original_image_src": "https://c4.staticflickr.com/5/4086/5014730631_9c2701e063_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "vehicle",
+    "image_id": "9baac3ede8933b48",
+    "image_src": "https://farm7.staticflickr.com/2026/2236797328_6c02e4d416_o.jpg",
+    "image_content": [
+      "Train",
+      "Skyscraper",
+      "Car",
+      "Land vehicle",
+      "Plant",
+      "Vehicle",
+      "Wheel",
+      "Tree"
+    ],
+    "question": "What is the weather like in the image?",
+    "gt_answer": "In the image, the weather appears to be either sunny or cloudy.",
+    "model_answer": "The image does not provide any information about the weather outside. It shows the interior of a bunk bed, with pillows and bedding, and no windows or outdoor views are visible. Therefore, the weather cannot be determined from the image.",
+    "original_image_src": "https://c1.staticflickr.com/4/3386/3430256574_ab887d1df5_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "vehicle",
+    "image_id": "a822376f2d79b90f",
+    "image_src": "https://c3.staticflickr.com/7/6153/6266717889_714dc304bd_o.jpg",
+    "image_content": [
+      "Wheel",
+      "Bus",
+      "Person",
+      "Auto part",
+      "Land vehicle"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The picture presents a yellow school bus stationed on an urban roadway, alongside a bicyclist. Positioned outside a tattoo establishment, the bus offers a unique urban backdrop. The road is notably calm, with the absence of other vehicles and passersby. The cyclist, equipped with a backpack and helmet, seems to be a student or a regular commuter. Given the tattoo parlor and the school bus, it's plausible that this area is a vibrant commercial or recreational hub frequented by shoppers, students, or those seeking leisure.",
+    "model_answer": "This is a close-up, overhead photograph of a set of silverware arranged neatly on a light-colored, possibly beige or cream, tablecloth. The lighting is warm and slightly dim, casting soft reflections on the metallic surfaces of the utensils.\n\nThere are a total of five pieces of cutlery, arranged in two groups:\n\n- **On the left:** Two forks. The fork on the far left is smaller, with four tines, and has a slender handle. The fork next to it is slightly larger, with four tines as well, and a slightly thicker handle. Both have a polished, reflective finish.\n\n- **On",
+    "original_image_src": "https://c8.staticflickr.com/5/4033/4523458956_0b78c6b298_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "vehicle",
+    "image_id": "a7157a32c782e319",
+    "image_src": "https://c1.staticflickr.com/2/1425/689823158_b0bff45e0f_o.jpg",
+    "image_content": [
+      "Person",
+      "Fixed-wing aircraft"
+    ],
+    "question": "Which company owns the airplane displayed in the back of the image?",
+    "gt_answer": "The airplane in the background of the image is owned by Virgin Airlines.",
+    "model_answer": "Actually, there is no airplane displayed in the back of the image. The image shows a bathroom sink with a bottle of Listerine mouthwash, a faucet, a small white container, and a blue towel. In the background, there is a bathtub and a white pipe, but no airplane is visible.\n\nTherefore, the question is based on a false premise \u2014 there is no airplane in the image, so no company owns one.",
+    "original_image_src": "https://c2.staticflickr.com/8/7167/6555470659_4c69a30b73_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "person",
+    "image_id": "d6485beb5b69ea53",
+    "image_src": "https://farm2.staticflickr.com/1116/1411998044_37c3c4a234_o.jpg",
+    "image_content": [
+      "Plant",
+      "Tree",
+      "Man",
+      "Sports equipment",
+      "Human arm"
+    ],
+    "question": "What are the colors of the shirts worn by the three men from left to right in the image?",
+    "gt_answer": "The three men from left to right in the image are wearing green, blue, and red shirts.",
+    "model_answer": "There are no men visible in the image. The scene depicts a kitchen and dining area with a table, chairs, cabinets, and windows, but no people are present. Therefore, there are no shirts worn by any men to describe.\n\nAnswer: There are no men in the image.",
+    "original_image_src": "https://farm4.staticflickr.com/3839/14901778703_09a206232c_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "person",
+    "image_id": "350f86d5d3c2d9c3",
+    "image_src": "https://c7.staticflickr.com/9/8387/8506072922_e7f6c6ca49_o.jpg",
+    "image_content": [
+      "Human head",
+      "Boy",
+      "Human ear",
+      "Human eye",
+      "Human mouth",
+      "Human face",
+      "Man",
+      "Human hair",
+      "Human body",
+      "Mammal",
+      "Human nose",
+      "Clothing"
+    ],
+    "question": "Which color are the glasses that the man in the image is wearing?",
+    "gt_answer": "The man is not wearing glasses.",
+    "model_answer": "The image does not show a man wearing glasses. The image depicts a tennis racket and a tennis ball resting on a green tennis court. There is no person visible in the image, so there are no glasses to identify.\n\nTherefore, the question is based on a misunderstanding or misinterpretation of the image content. The correct answer is: There is no man in the image, so there are no glasses to describe.",
+    "original_image_src": "https://farm4.staticflickr.com/41/83372724_a17cceb078_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "person",
+    "image_id": "1e4224b56a0c9ef0",
+    "image_src": "https://c6.staticflickr.com/8/7012/6406526537_1c876dded4_o.jpg",
+    "image_content": [
+      "Clothing",
+      "Human body",
+      "Person",
+      "Man",
+      "Mammal"
+    ],
+    "question": "Who in the picture is wearing trousers?",
+    "gt_answer": "The woman in the image wears the pants.",
+    "model_answer": "Based on the image provided, there is no visible person wearing trousers.\n\nThe image shows:\n- A white Apple Magic Mouse resting on a silver laptop (likely an Apple MacBook).\n- A small portion of a pink object in the top-left corner, which appears to be a finger or part of a hand holding the laptop.\n- No legs, feet, or lower body clothing (like trousers) are visible in the picture.\n\nTherefore, it is not possible to determine who is wearing trousers, as no person is fully or partially visible in the image, and no trousers are shown.",
+    "original_image_src": "https://farm1.staticflickr.com/3815/9340455006_25a885f7ef_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "person",
+    "image_id": "c8028c1f637cee75",
+    "image_src": "https://farm7.staticflickr.com/151/363931462_37f0088f48_o.jpg",
+    "image_content": [
+      "Girl",
+      "Human head",
+      "Human hair",
+      "Mammal",
+      "Dog",
+      "Person",
+      "Human face"
+    ],
+    "question": "How many people are there in the image?",
+    "gt_answer": "There are four people in the image.",
+    "model_answer": "There are no people visible in the image. The scene features giraffes and zebras in what appears to be a zoo or wildlife park enclosure.",
+    "original_image_src": "https://farm6.staticflickr.com/7307/16189396430_4dce91a9d7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "person",
+    "image_id": "4ad9295d442500a7",
+    "image_src": "https://farm5.staticflickr.com/6005/5997807974_708c7602a0_o.jpg",
+    "image_content": [
+      "Mammal",
+      "Human nose",
+      "Human mouth",
+      "Human face",
+      "Clothing",
+      "Poster",
+      "Person",
+      "Human hair"
+    ],
+    "question": "Where is the girl positioned among the three people in the image?",
+    "gt_answer": "The girl stands on the right among the three individuals in the image.",
+    "model_answer": "There is no girl in the image. The image shows a stainless steel gas stove with multiple burners and control knobs, set in a modern kitchen with white cabinets and a gray countertop. To the right of the stove, there is a toaster. No people are visible in the image.",
+    "original_image_src": "https://farm8.staticflickr.com/3063/2500640631_a4c9abd52c_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "person",
+    "image_id": "4701e0acb21f2e68",
+    "image_src": "https://farm4.staticflickr.com/8297/7818684444_d3de1dd27a_o.jpg",
+    "image_content": [
+      "Human face",
+      "Fashion accessory",
+      "Human arm",
+      "Human hair",
+      "Human head",
+      "Human leg",
+      "Man",
+      "Human mouth",
+      "Sunglasses",
+      "Human body",
+      "Swimwear",
+      "Boy",
+      "Goggles"
+    ],
+    "question": "Is the man in the picture indoors or outdoors?",
+    "gt_answer": "The man in the photo is outside, sitting on a boat with several oxygen tanks around him.",
+    "model_answer": "The man in the picture is indoors.\n\nThe image shows a cozy, upholstered loveseat with floral-patterned fabric and decorative pillows, placed against a plain wall on a wooden floor. The setting appears to be a domestic interior \u2014 likely a living room or similar space \u2014 with no signs of an outdoor environment. The lighting is artificial and evenly distributed, typical of indoor settings. There are no windows, natural light sources, or outdoor elements visible.\n\nTherefore, the man (or rather, the scene featuring him) is indoors.",
+    "original_image_src": "https://c1.staticflickr.com/3/2766/4264709756_1eb0e9ab45_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "person",
+    "image_id": "856c000622d66bd9",
+    "image_src": "https://c4.staticflickr.com/6/5099/5483033051_fa3ecf0e0d_o.jpg",
+    "image_content": [
+      "Window",
+      "Clothing",
+      "Person",
+      "Building"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image captures a bustling street lined with various shops and an adjoining sidewalk. Several pedestrians are present, with two individuals notably passing a store with a green sign saying \"Hawkin's Bazaar\". At this store's entrance, a man stands, overseeing a spacious window display that houses diverse items, highlighted by a red and white sign. Interestingly, no trees or parked cars are present in the street. The mood is energetic, showcasing individuals engaged in their daily routines and shopping pursuits.",
+    "model_answer": "This is a dynamic, action-packed photograph capturing a moment during an indoor ice hockey game. The focus is on a central player in a white jersey with black and yellow accents, who is actively skating and controlling the puck with his stick. He is wearing a black helmet, and his jersey features a cartoonish yellow and black mascot on the chest, which appears to be a tiger or similar animal. His stick is a black Bauer model, and he is wearing white socks with black and yellow stripes and black skates.\n\nSurrounding him are players from the opposing team, dressed in blue jerseys with red and white trim. The jerseys have \"",
+    "original_image_src": "https://c2.staticflickr.com/4/3501/4068897399_a729022693_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "person",
+    "image_id": "c3c43c3a0b95b8b7",
+    "image_src": "https://farm1.staticflickr.com/3758/12521323285_97a94c8cbc_o.jpg",
+    "image_content": [
+      "Person",
+      "Clothing",
+      "Sports equipment",
+      "Mammal",
+      "Footwear"
+    ],
+    "question": "What number is the fastest girl wearing in the picture?",
+    "gt_answer": "The fastest girl in the picture is wearing number 1097.",
+    "model_answer": "There is no girl or number visible in the picture. The image shows sliced kiwi fruits, both fresh and dried, against a white background. No person or number is present.",
+    "original_image_src": "https://farm8.staticflickr.com/7445/8716117944_a272643aef_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "animal",
+    "image_id": "2c6cfffcec6c6463",
+    "image_src": "https://farm4.staticflickr.com/3048/2971924328_aeaf1258e0_o.jpg",
+    "image_content": [
+      "Dog"
+    ],
+    "question": "What are the colors of the dogs from right to left?",
+    "gt_answer": "The colors of the two dogs from right to left are brown and black.",
+    "model_answer": "There are no dogs in the image. The picture shows a bookshelf with Penguin Books, specifically travel titles such as *The Colossus of Maroussi* by Henry Miller and *Anson\u2019s Voyage Round the World* edited by S. W. C. Pack. The books have red and cream-colored covers with the iconic Penguin Books logo. The image is of books, not animals.\n\nTherefore, the question about the colors of dogs is not applicable \u2014 there are no dogs visible.",
+    "original_image_src": "https://farm4.staticflickr.com/8268/10172500456_1f40b6bd38_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "animal",
+    "image_id": "0c9eb1868c2d1228",
+    "image_src": "https://c1.staticflickr.com/2/1029/3352759027_94cb468a1f_o.jpg",
+    "image_content": [
+      "Animal",
+      "Bird"
+    ],
+    "question": "What is a vicuna standing in the sand looking at?",
+    "gt_answer": "There is no vicuna in the image.",
+    "model_answer": "There is no vicuna in the image.\n\nThe image shows a person holding a Nokia smartphone, which appears to be a Nokia E71 or similar model. The phone has a physical keyboard and a touchscreen display. The screen shows various icons, notifications, and the date/time (Friday, 13/03/2009, 18:04). The phone is not displaying any content related to a vicuna or any animal in the sand.\n\nTherefore, the premise of the question is incorrect \u2014 there is no vicuna in the image, so it cannot be looking at anything.",
+    "original_image_src": "https://c1.staticflickr.com/3/2935/13789278495_8545acd44c_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "animal",
+    "image_id": "3f244d0cd047e3b7",
+    "image_src": "https://c3.staticflickr.com/8/7145/6599551311_4afa756cf7_o.jpg",
+    "image_content": [
+      "Mammal",
+      "Cat"
+    ],
+    "question": "Which cat (left, right or middle) in the image opens its mouth?",
+    "gt_answer": "The cat on the right side of the image opens its mouth.",
+    "model_answer": "There are no cats in the image. The image shows a roasted turkey in a roasting pan, with a kitchen countertop and tiled backsplash in the background.",
+    "original_image_src": "https://farm8.staticflickr.com/195/502006488_2d907443d8_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "animal",
+    "image_id": "7283e9f8f21661ea",
+    "image_src": "https://c1.staticflickr.com/1/463/20076975362_949c5a1cdb_o.jpg",
+    "image_content": [
+      "Zebra",
+      "Plant"
+    ],
+    "question": "How many zebras are there in the image?",
+    "gt_answer": "There are six zebras in the image.",
+    "model_answer": "There are zero zebras in the image. The image shows two BMW cars parked in front of a large white tent with the slogan \u201cTHE ULTIMATE DRIVING MACHINE.\u201d There are no animals, let alone zebras, visible in the scene.",
+    "original_image_src": "https://c3.staticflickr.com/6/5223/5775946611_ef789718ed_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "animal",
+    "image_id": "ebbc5c3c4b35bedd",
+    "image_src": "https://c2.staticflickr.com/9/8726/16685252757_e1c32c0e1f_o.jpg",
+    "image_content": [
+      "Plant",
+      "Sheep",
+      "Tree"
+    ],
+    "question": "Which sheep is in front of the other sheep?",
+    "gt_answer": "The sheep in front of the other sheep is a white sheep.",
+    "model_answer": "Actually, there are no sheep in this image. The scene depicts a barbecue grill with skewered meat being cooked, and people gathered around it. The grill is filled with skewers of meat, likely satay or similar grilled meats, and a person is tending to the grill. The background shows a crowd of people, some wearing red caps, and the setting appears to be outdoors, possibly at a food market or festival. There is no sheep or any animal resembling a sheep present in the image.",
+    "original_image_src": "https://c6.staticflickr.com/2/1333/965561501_0b7e9aed90_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "animal",
+    "image_id": "952641c85b9f09fe",
+    "image_src": "https://farm5.staticflickr.com/8035/8063845568_6b183760bc_o.jpg",
+    "image_content": [
+      "Footwear",
+      "Sports equipment",
+      "Clothing",
+      "Person",
+      "Helmet",
+      "Animal",
+      "Man",
+      "Human leg",
+      "Human body"
+    ],
+    "question": "How was the weather when this picture was captured?",
+    "gt_answer": "When this photo was taken, it was dark at night. This photo shows a horse race at night.",
+    "model_answer": "The weather cannot be determined from this picture.\n\nThe image shows three decorative pillows on a bed, each depicting a hand gesture representing the game of Rock-Paper-Scissors: \u201cScissors,\u201d \u201cPaper,\u201d and \u201cStone.\u201d The setting appears to be indoors \u2014 likely a hotel room or bedroom \u2014 as indicated by the bed, the upholstered headboard, and the artificial lighting. There are no visible windows, outdoor scenery, or weather-related clues in the image.\n\nSince the photo was taken inside a building, the weather outside is irrelevant to the image content and cannot be inferred from it.",
+    "original_image_src": "https://c7.staticflickr.com/4/3210/2938079244_9e814f0e7a_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "animal",
+    "image_id": "7b6eed2a50ffd046",
+    "image_src": "https://farm3.staticflickr.com/1040/990306359_60994704df_o.jpg",
+    "image_content": [
+      "Zebra",
+      "Tree",
+      "Mammal",
+      "Giraffe",
+      "Plant"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image depicts three zebras and four giraffes on a sandy terrain, with trees in the background and a stone structure to the right. Surrounding the scene is fencing, suggesting a controlled environment like a zoo or nature reserve.",
+    "model_answer": "This is a photograph of a clean, modern, and functional public or hotel bathroom stall, characterized by its minimalist design and practical fixtures.\n\n**Walls and Floor:** The walls and floor are covered in small, square, off-white or cream-colored tiles with thin, dark gray grout lines, creating a grid pattern. The tiles are uniformly sized and laid in a neat, orderly fashion.\n\n**Shower Area:** On the left, a shower enclosure is visible. It features a translucent, frosted glass door with a vertical metal frame. The door has two simple, round, silver-colored knobs for operation. The glass is slightly textured,",
+    "original_image_src": "https://farm7.staticflickr.com/151/363931462_37f0088f48_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "animal",
+    "image_id": "996983a34279806d",
+    "image_src": "https://farm5.staticflickr.com/3802/13407081714_0375f7b3e0_o.jpg",
+    "image_content": [
+      "Rhinoceros",
+      "Mammal"
+    ],
+    "question": "Out of the four animals, how many giraffes are there in the image?",
+    "gt_answer": "In the image, there are two rhinos, a giraffe, and a wild horse.",
+    "model_answer": "There are no giraffes in the image. The image shows a tennis player on a court with the words \"INDIAN WELLS\" written on the ground. There are no animals visible in the picture.",
+    "original_image_src": "https://c6.staticflickr.com/5/4079/4883309412_53b0b853d5_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "food",
+    "image_id": "f1af0ed7187eab00",
+    "image_src": "https://c4.staticflickr.com/5/4010/4459982881_b378f81b6f_o.jpg",
+    "image_content": [
+      "Fruit"
+    ],
+    "question": "Is the kiwi in the front fresh or dried?",
+    "gt_answer": "The kiwi in the front is dried. There are four dried pieces of kiwi in the front, and three fresh ones in the back.",
+    "model_answer": "There is no kiwi in the image. The image shows two pool balls \u2014 one orange and one light green \u2014 on a pool table. The green ball is likely a cue ball or a numbered ball, not a kiwi. Therefore, the question about whether a kiwi is fresh or dried is not applicable to this image.",
+    "original_image_src": "https://farm1.staticflickr.com/3758/12521323285_97a94c8cbc_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "food",
+    "image_id": "4ca36920f24e0fbd",
+    "image_src": "https://c2.staticflickr.com/5/4126/4958794254_c3f9677682_o.jpg",
+    "image_content": [
+      "Dessert",
+      "Bread"
+    ],
+    "question": "Is the jam on the bread made of strawberry?",
+    "gt_answer": "In fact, this photo only shows a cut and toasted bread slice. There is no jam on it.",
+    "model_answer": "The image provided does not contain any bread or jam. It shows two surfboards resting on grass \u2014 one is a light-colored wooden board with a logo, and the other is a red board with a black-and-white geometric pattern. There is no food, nor any indication of strawberry jam, in the image.\n\nTherefore, the question is not applicable to the image. The answer is: **No, there is no jam on any bread in the image.**",
+    "original_image_src": "https://c6.staticflickr.com/9/8834/18414801440_47f21894da_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "food",
+    "image_id": "51389a33f0919915",
+    "image_src": "https://c6.staticflickr.com/4/3247/3045172470_2e407f3602_o.jpg",
+    "image_content": [
+      "Vegetable",
+      "Tomato",
+      "Food"
+    ],
+    "question": "Compare the tomatoes in the photo.",
+    "gt_answer": "There are three tomatoes from the same vine in the photo. The tomato on the left side is red and ripe, while the two tomatoes in the middle and on the right side are yellow and unripe.",
+    "model_answer": "There are no tomatoes in the photo. The image shows a display case with steamed buns, likely in a food stall or restaurant, with a pair of tongs resting on the tray. The glass is foggy from condensation, and the buns are placed on paper liners. No tomatoes are visible.",
+    "original_image_src": "https://farm6.staticflickr.com/5209/5322693484_868ba39c68_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "food",
+    "image_id": "071af503f95aee59",
+    "image_src": "https://c3.staticflickr.com/4/3039/3018306107_51f8da54b3_o.jpg",
+    "image_content": [
+      "Oyster",
+      "Food",
+      "Invertebrate",
+      "Animal",
+      "Seafood"
+    ],
+    "question": "How many oysters can you see in the photo?",
+    "gt_answer": "There are five oysters visible in the photo.",
+    "model_answer": "There are 0 oysters in the photo.\n\nThe image shows a set of utensils (spoons and forks) with handles designed to look like LEGO bricks. There are no oysters visible anywhere in the picture.",
+    "original_image_src": "https://c2.staticflickr.com/3/2374/2519330533_597840098a_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "food",
+    "image_id": "2bbc6adf1cff3456",
+    "image_src": "https://farm2.staticflickr.com/3779/9040237050_b0af7bbf73_o.jpg",
+    "image_content": [
+      "Dessert",
+      "Baked goods",
+      "Broccoli",
+      "Fast food",
+      "Cookie"
+    ],
+    "question": "Is the bowl with broccoli on top of the bowl with meatballs?",
+    "gt_answer": "No, the bowl with broccoli is next to the bowl of meatballs.",
+    "model_answer": "No, the bowl with broccoli is not on top of the bowl with meatballs.\n\nActually, there are no bowls with broccoli or meatballs in the image. The image shows two ceramic vases, not bowls, and they are decorated with floral patterns in red, blue, and green on a white background. The vases are standing side by side on a flat surface, and there is no indication of food or any kind of bowls at all.\n\nSo, the premise of the question is incorrect \u2014 there are no bowls, let alone broccoli or meatballs.",
+    "original_image_src": "https://farm7.staticflickr.com/5186/5757505875_8578d2fc37_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "food",
+    "image_id": "af8fe8f491807b09",
+    "image_src": "https://c4.staticflickr.com/5/4086/5014730631_9c2701e063_o.jpg",
+    "image_content": [
+      "Snack",
+      "Clothing",
+      "Mammal",
+      "Person",
+      "Human body",
+      "Human hand",
+      "Fast food",
+      "Food",
+      "Man",
+      "Human arm",
+      "Woman",
+      "Seafood"
+    ],
+    "question": "Is this photo taken in a restaurant, a kitchen, or anywhere else?",
+    "gt_answer": "This photo is taken outdoors, likely on a beach, where a man is cooking on a grill.",
+    "model_answer": "This photo is taken **out on the ocean** \u2014 not in a restaurant, kitchen, or any indoor setting. \n\nThe image features:\n- A yellow inflatable boat (a \u201cUFO Parasail Shuttle\u201d) moving through blue water, creating a wake.\n- A man standing in the boat, wearing casual attire and sunglasses.\n- A larger white boat (named \u201cDESPER\u201d) anchored in the background.\n- Open water with distant land visible on the horizon.\n\nThis is clearly a **marine or coastal setting**, likely for parasailing or boat tours.",
+    "original_image_src": "https://c2.staticflickr.com/9/8726/16685252757_e1c32c0e1f_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "food",
+    "image_id": "3e018215175254e6",
+    "image_src": "https://farm7.staticflickr.com/5186/5757505875_8578d2fc37_o.jpg",
+    "image_content": [
+      "Man",
+      "Food",
+      "Clothing",
+      "Vegetable"
+    ],
+    "question": "Describe the activities in this image.",
+    "gt_answer": "In this image we can see a man and two young girls preparing food. The man seems to be a chef with a suit but no hat. The two girls seem to be interns, wearing aprons with a \"BRITANNIA HOTEL\" logo. The man seems to be guiding the girls to prepare the food. In front of them, there is a table with food on it. From left to right, there is a metal bowl of vegetables on a red cutting board, and two plates of meat, possibly saussages.",
+    "model_answer": "The image shows a meal prepared with meatballs and broccoli, presented in a split-view format. In the left panel, there is a white bowl filled with browned, textured meatballs, likely homemade or cooked in a skillet. Behind it, another bowl contains a vibrant green puree or sauce, possibly made from broccoli or spinach, adding a contrasting color and texture. In the right panel, a white bowl is filled with bright green broccoli florets, which appear steamed or lightly cooked, retaining their crisp texture and vivid color. Above it, a smaller bowl contains more meatballs, suggesting the dish is served in portions or is being",
+    "original_image_src": "https://farm7.staticflickr.com/1420/4722330374_2425fd36eb_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "food",
+    "image_id": "0151d884c5bf5c8c",
+    "image_src": "https://farm8.staticflickr.com/7445/8716117944_a272643aef_o.jpg",
+    "image_content": [
+      "Fast food",
+      "Clothing",
+      "Snack",
+      "Person",
+      "Food"
+    ],
+    "question": "From this photo, how much does each jerk chicken dumpling cost?",
+    "gt_answer": "Each jerk chicken dumpling costs 5 pounds.",
+    "model_answer": "I can't determine the cost of jerk chicken dumplings from this photo.\n\nThe image shows a track and field event, specifically a hurdle race with athletes in motion. There are banners for \u201cGolden Eagles\u201d and \u201cDel Oro,\u201d which likely refers to a school or athletic team. There are also spectators, tents, and a football goalpost visible in the background. There is no indication of food, restaurants, or pricing in the image.\n\nJerk chicken dumplings are not mentioned or depicted in the photo, so their price cannot be determined from the visual information provided.",
+    "original_image_src": "https://c5.staticflickr.com/7/6064/6097499605_d06c51eed9_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "sports",
+    "image_id": "375e84d28f0d3cbc",
+    "image_src": "https://c5.staticflickr.com/7/6064/6097499605_d06c51eed9_o.jpg",
+    "image_content": [
+      "Sports equipment",
+      "Parachute"
+    ],
+    "question": "What are the colors of the parachutes in the sky?",
+    "gt_answer": "There are three parachutes in the sky. The one on the left is light green. The one on the top right is orange. The one on the bottom right is blue.",
+    "model_answer": "There are no parachutes in the sky in this image. The scene depicts a street food vendor grilling corn and chicken on a barbecue, with signs advertising Jamaican patties, jerk chicken, and roast corn. In the background, there is a red and white awning or canopy, but no parachutes are visible.",
+    "original_image_src": "https://c5.staticflickr.com/8/7141/6705513453_b025140503_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "sports",
+    "image_id": "bb59841e50eff62e",
+    "image_src": "https://c5.staticflickr.com/8/7141/6705513453_b025140503_o.jpg",
+    "image_content": [
+      "Tennis racket",
+      "Ball (Object)"
+    ],
+    "question": "Describe the person playing tennis in this photo.",
+    "gt_answer": "No, there is only a tennis racket and a ball on the ground. No one is playing tennis in this photo.",
+    "model_answer": "There is no person playing tennis in this photo. The image shows three colorful kite surfers\u2019 kites flying in the sky against a backdrop of blue sky and white clouds. Kite surfing is a water sport that uses a kite to propel a rider across the water, not tennis.",
+    "original_image_src": "https://c7.staticflickr.com/9/8387/8506072922_e7f6c6ca49_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "sports",
+    "image_id": "e304afc041e5c159",
+    "image_src": "https://farm1.staticflickr.com/3815/9340455006_25a885f7ef_o.jpg",
+    "image_content": [
+      "Surfboard"
+    ],
+    "question": "Compare the two surfboards in the photo.",
+    "gt_answer": "The two surfboards have different looks. The surfboard on the top has a white and wood color with a simple design. The other one on the bottom is red, with a more complex white and black pattern in the front.",
+    "model_answer": "There are no surfboards in the photo. The image shows a man and a woman sitting around a campfire at night, roasting a marshmallow. They are seated in camping chairs, and the fire pit contains burning logs. The setting appears to be a campground or campsite in a wooded area.",
+    "original_image_src": "https://c2.staticflickr.com/5/4126/4958794254_c3f9677682_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "sports",
+    "image_id": "a66b0731cef5ba7b",
+    "image_src": "https://c2.staticflickr.com/4/3700/9536149248_661b279f89_o.jpg",
+    "image_content": [
+      "Horse",
+      "Person",
+      "Mammal",
+      "Tree"
+    ],
+    "question": "How many horses are there in the photo?",
+    "gt_answer": "There are three horses in the photo.",
+    "model_answer": "0",
+    "original_image_src": "https://c4.staticflickr.com/4/3048/2603285498_e8e6c82214_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "sports",
+    "image_id": "ac08533aa9ebadbb",
+    "image_src": "https://farm4.staticflickr.com/7415/12673135324_0973fca7b2_o.jpg",
+    "image_content": [
+      "Ball (Object)",
+      "Furniture",
+      "Billiard table",
+      "Table"
+    ],
+    "question": "What is the color of the ball on the left?",
+    "gt_answer": "The color of the ball on the left is red or orange.",
+    "model_answer": "Based on the image provided, there is no ball visible on the left side of the television screen.\n\nThe left side of the screen displays a graphic overlay with text. It shows:\n- The word \"Jan.\" (likely for January)\n- The year \"2001\" in orange text\n- The measurement \"5,05 m\" in blue text\n- A blue background with a small vertical bar graph\n\nThere is no ball present in the image.",
+    "original_image_src": "https://c4.staticflickr.com/5/4010/4459982881_b378f81b6f_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "sports",
+    "image_id": "93817e876146e69b",
+    "image_src": "https://farm8.staticflickr.com/8170/7962741614_51a3a8b874_o.jpg",
+    "image_content": [
+      "Person",
+      "Mammal",
+      "Sports equipment",
+      "Footwear",
+      "Helmet",
+      "Clothing"
+    ],
+    "question": "Is this photo taken indoors or outdoors?",
+    "gt_answer": "The photo is taken indoors, since there is a group of hockey players playing in an ice stadium.",
+    "model_answer": "This photo is taken **outdoors**.\n\nEvidence includes:\n- A sandy beach with ocean waves visible in the background.\n- Bright, natural sunlight illuminating the scene.\n- Beach equipment like a colorful umbrella and a lounge chair set up on the sand.\n- A clear sky above the horizon.\n\nAll these elements are characteristic of an outdoor beach setting.",
+    "original_image_src": "https://c4.staticflickr.com/6/5099/5483033051_fa3ecf0e0d_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "sports",
+    "image_id": "c548e556693c452c",
+    "image_src": "https://c7.staticflickr.com/6/5506/11715451803_24861529ab_o.jpg",
+    "image_content": [
+      "Human arm",
+      "Footwear",
+      "Football",
+      "Clothing",
+      "Man",
+      "Mammal",
+      "Human body",
+      "Sports equipment",
+      "Human hand"
+    ],
+    "question": "Describe the activity in this photo.",
+    "gt_answer": "In this photo, three players are playing soccer. The first player on the left wears a white and red uniform, and is controlling the ball. The other two players on the right side are from the other team. They wear blue and yellow uniforms. The player closer to the camera is competing with the first player to gain control of the ball, while the other player is at distance.",
+    "model_answer": "This photo shows a modern, digital parking meter in operation. The meter is branded with \u201cPowered by LaunchPad\u201d and is part of a \u201cPark & Pay\u201d system, as indicated by the logo and contact information.\n\nHere\u2019s a breakdown of the activity and details visible:\n\n1. **Current Status Display**:\n   - The screen shows: \u201cSPACE 665\u201d \u2014 indicating the parking space number.\n   - \u201c0:59:58\u201d \u2014 showing the remaining time on the current payment (59 minutes and 58 seconds).\n   - \u201cNO RECEIPT NEEDED\u201d \u2014 meaning the transaction was",
+    "original_image_src": "https://c5.staticflickr.com/3/2929/13926846360_2449b5b12f_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "sports",
+    "image_id": "7bc342d079ac1474",
+    "image_src": "https://farm6.staticflickr.com/5209/5322693484_868ba39c68_o.jpg",
+    "image_content": [
+      "Person",
+      "Footwear",
+      "Tennis racket",
+      "Sports equipment",
+      "Human arm",
+      "Ball (Object)"
+    ],
+    "question": "Which tournament is this tennis competition?",
+    "gt_answer": "From the text on the ground, this is the Indian Wells tournament.",
+    "model_answer": "Actually, there is no tennis competition depicted in this image. The photo shows three small, round, colorful fruits (likely from a plant such as the *Solanum* genus, possibly a type of nightshade or eggplant relative) hanging from a green, thorny branch. The background is lush green foliage, suggesting a garden or natural setting.\n\nSince no tennis tournament is visible or referenced, there is no applicable tennis competition to identify.\n\nIf you meant to ask about a specific tournament or have a different image, feel free to provide more details!",
+    "original_image_src": "https://farm5.staticflickr.com/3802/13407081714_0375f7b3e0_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "kitchen",
+    "image_id": "9133b173feb0a59a",
+    "image_src": "https://farm6.staticflickr.com/2446/3859505368_6e432fbae2_o.jpg",
+    "image_content": [
+      "Home appliance",
+      "Cupboard",
+      "Cabinetry",
+      "Kitchen appliance",
+      "Countertop",
+      "Microwave oven",
+      "Furniture",
+      "Sink",
+      "Drawer",
+      "Refrigerator",
+      "House",
+      "Plumbing fixture"
+    ],
+    "question": "What color is the microwave?",
+    "gt_answer": "The microwave is mainly silver, with a black panel.",
+    "model_answer": "There is no microwave visible in the image. The picture shows a room with white bunk beds, blue and yellow floral bedding, and a brick floor with a woven rug.",
+    "original_image_src": "https://c3.staticflickr.com/4/3827/12255073776_5f17d88d21_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "kitchen",
+    "image_id": "29e78aee706861b1",
+    "image_src": "https://c5.staticflickr.com/3/2929/13926846360_2449b5b12f_o.jpg",
+    "image_content": [
+      "House",
+      "Cupboard",
+      "Kitchen & dining room table",
+      "Cabinetry",
+      "Home appliance",
+      "Table",
+      "Kitchen appliance",
+      "Chair",
+      "Window"
+    ],
+    "question": "How many people are eating in this kitchen?",
+    "gt_answer": "No one is eating in the kitchen. I can see a dining table and four chairs, but there are no people in the sitting there right now.",
+    "model_answer": "There are no people eating in this kitchen because there is no kitchen in the image. The image shows a soccer match on a field, with players in action and spectators in the stands.",
+    "original_image_src": "https://farm2.staticflickr.com/1116/1411998044_37c3c4a234_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "kitchen",
+    "image_id": "1b7fae3b7e77482a",
+    "image_src": "https://farm8.staticflickr.com/137/383965780_db4815011c_o.jpg",
+    "image_content": [
+      "Kitchen utensil",
+      "Fork",
+      "Spoon",
+      "Tableware",
+      "Toy",
+      "Person"
+    ],
+    "question": "Compare the utensils in the picture.",
+    "gt_answer": "The picture shows a set of three utensils in different views with a white background: A knive with a blue handle, a spoon with a yellow handle, and a red fork with a red handle. They are all made of metal and plastic handle.",
+    "model_answer": "There are no utensils in the picture. The image shows two wooden tables with a single red flower in a glass vase on one of them.",
+    "original_image_src": "https://c3.staticflickr.com/4/3039/3018306107_51f8da54b3_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "kitchen",
+    "image_id": "d81d745b84568e6a",
+    "image_src": "https://farm4.staticflickr.com/3839/14901778703_09a206232c_o.jpg",
+    "image_content": [
+      "Kitchen utensil",
+      "Fork",
+      "Tableware",
+      "Tool"
+    ],
+    "question": "How many forks can you see?",
+    "gt_answer": "There are two forks.",
+    "model_answer": "0",
+    "original_image_src": "https://c3.staticflickr.com/7/6153/6266717889_714dc304bd_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "kitchen",
+    "image_id": "0fb3b09b91685b46",
+    "image_src": "https://farm7.staticflickr.com/1420/4722330374_2425fd36eb_o.jpg",
+    "image_content": [
+      "Coffee cup",
+      "Spoon",
+      "Mug",
+      "Tableware",
+      "Kitchen utensil"
+    ],
+    "question": "What are the objects from right to left?",
+    "gt_answer": "The objects from right to left are a lid, a spoon, and a coffee cup.",
+    "model_answer": "From right to left, the objects are:\n\n1.  **A plate of sliced salmon** \u2013 This is a white plate holding several pieces of raw, pink salmon fillets, likely being prepared for a dish.\n2.  **A chef's coat** \u2013 Worn by the man on the right, this is a white chef's jacket with a name tag and a small logo on the left sleeve. It is a professional uniform.\n3.  **A white apron** \u2013 Worn by the girl in the center, this apron has the logo and name \"BRITANNIA HOTEL Spa & Wellness\" printed on",
+    "original_image_src": "https://farm7.staticflickr.com/4128/4967650364_6b23e0e7de_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "kitchen",
+    "image_id": "df3e58f3075a5e9a",
+    "image_src": "https://farm6.staticflickr.com/4013/4548634745_977535091a_o.jpg",
+    "image_content": [
+      "Sink",
+      "Gas stove",
+      "Shelf",
+      "Furniture",
+      "Drawer",
+      "Home appliance",
+      "Cabinetry",
+      "Table",
+      "Cupboard",
+      "Countertop",
+      "House",
+      "Chair"
+    ],
+    "question": "At what time is this photo taken?",
+    "gt_answer": "The photo is taken during the day.",
+    "model_answer": "Based on the image provided, the photo was taken at **4:33 PM**.\n\nThis time is clearly visible on the screen of the black iPod Touch on the left side of the image, displayed in the top right corner of the screen, just below the \"iPod\" label and Wi-Fi icon.",
+    "original_image_src": "https://c3.staticflickr.com/4/3213/3020281858_2d84b7bab7_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "kitchen",
+    "image_id": "cda31a3b42057d35",
+    "image_src": "https://c2.staticflickr.com/4/3501/4068897399_a729022693_o.jpg",
+    "image_content": [
+      "Kitchen & dining room table",
+      "Window",
+      "Chair"
+    ],
+    "question": "Describe this photo in detail.",
+    "gt_answer": "This photo features a wooden dining table with four wooden or metal chairs around it. On the table there are two coasters and two glass cups. The table is set on a wooden floor. Behind the table are the wall and two windows.",
+    "model_answer": "This is a detailed, eye-level street photograph of a charming, festive storefront on a cobblestone street during autumn. The central focus is the shop \u201cHawkin\u2019s Bazaar,\u201d which has a bright green sign with white lettering that reads \u201cHAWKIN\u2019S BAZAAR\u201d and the tagline \u201cBECAUSE LIFE\u2019S TOO SERIOUS\u201d beneath it. A smaller, matching green sign hangs on the building\u2019s corner. The shop\u2019s facade is white brick, and the entrance is flanked by large display windows.\n\nThe left window showcases a colorful and cluttered interior, filled with toys, books, and",
+    "original_image_src": "https://farm6.staticflickr.com/4041/4234666745_63e51cc909_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "kitchen",
+    "image_id": "4e5670ec1484e9c4",
+    "image_src": "https://farm4.staticflickr.com/7444/12392564684_ffd19b5b55_o.jpg",
+    "image_content": [
+      "Home appliance",
+      "Toaster",
+      "Oven",
+      "Furniture",
+      "Gas stove",
+      "Drawer",
+      "Cabinetry",
+      "Kitchen appliance"
+    ],
+    "question": "In the picture, which buttons should I use to control the stove above?",
+    "gt_answer": "There are 8 buttons in front of the stainless steel stove, two on the left and six on the right. Since there are also six stoves above, the buttons on the right should be associated with the stoves and used to control them. There is also a digital display to the left of the buttons that shows \"5:27\", which is possibly the current time.",
+    "model_answer": "Actually, there is no stove in the picture \u2014 it shows two views of a camera backpack, one open with gear inside and one closed. The backpack is for photography equipment, not cooking appliances.\n\nSo, there are no buttons to control a stove in this image.\n\nIf you meant to ask about controlling the backpack or its contents, please clarify \u2014 but as it stands, no stove is present, and no buttons for a stove exist in the image.",
+    "original_image_src": "https://farm5.staticflickr.com/6005/5997807974_708c7602a0_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "accessory",
+    "image_id": "64f51a50c1aff6f7",
+    "image_src": "https://farm4.staticflickr.com/8268/10172500456_1f40b6bd38_o.jpg",
+    "image_content": [
+      "Umbrella",
+      "Fashion accessory"
+    ],
+    "question": "What color is the umbrella?",
+    "gt_answer": "The umbrella is colorful, containing purple, yellow, teal, and orange.",
+    "model_answer": "There is no umbrella in the image. The picture shows two dogs running on a paved surface, with a chain-link fence and green grass in the background. The dogs are one black and one tan, and the tan dog is carrying a green ball in its mouth.",
+    "original_image_src": "https://farm8.staticflickr.com/8170/7962741614_51a3a8b874_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "accessory",
+    "image_id": "159220398554e6b0",
+    "image_src": "https://c2.staticflickr.com/4/3452/3788392512_2a3f537219_o.jpg",
+    "image_content": [
+      "Glove",
+      "Clothing",
+      "Fashion accessory"
+    ],
+    "question": "Describe the hands wearing the gloves.",
+    "gt_answer": "Only a pair of black gloves can be observed in the image. There are no hands shown in the image.",
+    "model_answer": "The image does not show any hands wearing gloves. The photograph captures a large, illuminated Ferris wheel at night, with blurred motion trails from its lights. In the foreground, there are a few silhouetted figures standing on the ground, but their hands are not visible or discernible in the image. Therefore, there are no hands wearing gloves depicted in this picture.",
+    "original_image_src": "https://farm1.staticflickr.com/2572/4093922675_0e2f451fe0_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "accessory",
+    "image_id": "886b0014dcc373a3",
+    "image_src": "https://c3.staticflickr.com/6/5558/14388226720_c54b67588a_o.jpg",
+    "image_content": [
+      "Hiking equipment",
+      "Clothing",
+      "Backpack"
+    ],
+    "question": "Compare the two different views of the backpack.",
+    "gt_answer": "The image shows two different views of the same black backpack. On the left side, it shows the inside of the bag, containing a camera, two lenses an other accessories. On the right side, it shows the outside of the bag, and there is a \"Lowepro\" logo on it.",
+    "model_answer": "Actually, there are no two different views of a backpack in this image. The image depicts a rainy urban street scene with trees, buildings, street signs, and a few pedestrians. While there are people walking on the sidewalk, none of them are carrying a backpack that is clearly visible or distinguishable in the image. The focus is on the environment and the atmosphere of the rainy day, not on personal items like backpacks.\n\nTherefore, there is no comparison to make between two views of a backpack, as no such object is present in the image.",
+    "original_image_src": "https://farm4.staticflickr.com/7444/12392564684_ffd19b5b55_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "accessory",
+    "image_id": "df4d61f1d6a84c36",
+    "image_src": "https://c1.staticflickr.com/3/2766/4264709756_1eb0e9ab45_o.jpg",
+    "image_content": [
+      "Clothing",
+      "Hat"
+    ],
+    "question": "How many black hats are there in the image?",
+    "gt_answer": "There are five black hats in the image.",
+    "model_answer": "There are no black hats in the image. The man is wearing sunglasses, not a hat.",
+    "original_image_src": "https://farm7.staticflickr.com/6081/6150182374_f0923ac4b0_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "accessory",
+    "image_id": "d0f1f4d19520388a",
+    "image_src": "https://c3.staticflickr.com/4/3827/12255073776_5f17d88d21_o.jpg",
+    "image_content": [
+      "Watch"
+    ],
+    "question": "Describe how the two watches are placed.",
+    "gt_answer": "There are two watches side by side in the photo. The black one is placed on top of and to the left of the red one.",
+    "model_answer": "There are no watches visible in the image. The scene depicts a modern kitchen with white cabinets, a black countertop island, stainless steel appliances (microwave, stove, refrigerator), and pendant lighting. On the island countertop, there are some papers and brochures, but no watches. Therefore, the question about the placement of two watches cannot be answered as there are no watches present.",
+    "original_image_src": "https://c3.staticflickr.com/6/5554/14424649263_69118d3a3b_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "accessory",
+    "image_id": "e376560f2ca3fbe6",
+    "image_src": "https://farm7.staticflickr.com/8308/7750080584_124d32aab3_o.jpg",
+    "image_content": [
+      "Footwear",
+      "Clothing"
+    ],
+    "question": "Is this photo taken indoors or outdoors?",
+    "gt_answer": "This photo shows a pair of green training shoes on a carpet, so this photo is taken indoors.",
+    "model_answer": "This photo is taken **indoors**.\n\nHere\u2019s why:\n\n- The shoes are resting on a **carpeted floor**, which is typical of indoor spaces like homes or offices.\n- The lighting is **even and diffused**, without harsh shadows or natural light cues (like sunlight, sky, or outdoor shadows) that would suggest an outdoor setting.\n- There are **no environmental elements** (like trees, sky, pavement, or wind) visible that would indicate an outdoor location.\n\nTherefore, the setting is clearly indoors.",
+    "original_image_src": "https://farm7.staticflickr.com/8308/7750080584_124d32aab3_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "accessory",
+    "image_id": "e070667656d27f6d",
+    "image_src": "https://farm8.staticflickr.com/2730/4272595396_785d273725_o.jpg",
+    "image_content": [
+      "Man",
+      "Person",
+      "Clothing",
+      "Human hand",
+      "Human arm",
+      "Fashion accessory",
+      "Woman",
+      "Human body"
+    ],
+    "question": "Describe the details in this photo.",
+    "gt_answer": "In the photo, a woman's hand is holding a man's hand. The woman's hand is wearing a diamond wedding ring, while the man's hand is wearing a simple wedding band. It seems that the woman is in a white dress and the man is in a black suit, but only a part can be seen in this photo. The image is black and white, except the wedding ring and band. This photo is likely taken in a wedding.",
+    "model_answer": "This is a close-up, overhead photograph of a metal colander filled with fresh, bright red cranberries, sitting inside a stainless steel sink. The scene is wet, suggesting the cranberries are being rinsed or prepared for cooking.\n\nHere are the detailed observations:\n\n- **Main Subject**: A large quantity of cranberries, varying slightly in shade from deep red to a lighter, almost pinkish-red, indicating freshness and possibly some variation in ripeness. Many berries have a small, pale yellowish-white stem or calyx at the top. They are glistening with water, which clings to their smooth, glossy skins.\n\n- **",
+    "original_image_src": "https://c6.staticflickr.com/7/6032/6333054847_854b033191_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "accessory",
+    "image_id": "75ed7924c47f984d",
+    "image_src": "https://farm6.staticflickr.com/7307/16189396430_4dce91a9d7_o.jpg",
+    "image_content": [
+      "Cowboy hat",
+      "Man",
+      "Human face",
+      "Clothing",
+      "Human nose",
+      "Fedora",
+      "Human head",
+      "Glasses",
+      "Beard",
+      "Goggles",
+      "Human mouth",
+      "Human body",
+      "Mammal",
+      "Sunglasses",
+      "Human hair"
+    ],
+    "question": "What can you see in the reflection from the sunglasses?",
+    "gt_answer": "A man wearing a top hat and a suit is wearing this pair of sunglasses. From the reflection in his sunglasses, I can vaguely see some people, but not the man himself.",
+    "model_answer": "Actually, there is no reflection from sunglasses visible in the image.\n\nThe photo on the scrapbook page shows a family of four \u2014 two adults and two children \u2014 smiling outdoors. The children are wearing sunglasses, but the sunglasses are not reflective in a way that shows a clear reflection of their surroundings. The lenses are dark and opaque, and the angle of the photo doesn\u2019t capture any reflections. Additionally, the photo is taken from a direct frontal perspective, so any reflections would be minimal or absent.\n\nTherefore, you cannot see any reflection from the sunglasses in this image.",
+    "original_image_src": "https://c6.staticflickr.com/7/6231/6209347220_846cc7f471_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "electronic",
+    "image_id": "d26d6ba07ad072f6",
+    "image_src": "https://c3.staticflickr.com/4/3169/2653797190_f42908d6e5_o.jpg",
+    "image_content": [
+      "Table"
+    ],
+    "question": "What is the color of the laptop?",
+    "gt_answer": "The color of the laptop is silver (or white). A black color sticker is on the laptop.",
+    "model_answer": "There is no laptop visible in the image. The image shows a vintage-style sofa with a beige and brown patterned fabric, positioned next to a window in a room with a blue floor and a white wall.",
+    "original_image_src": "https://farm7.staticflickr.com/4069/4654958099_df8364a87f_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "electronic",
+    "image_id": "45069d7de7100c0d",
+    "image_src": "https://c4.staticflickr.com/4/3048/2603285498_e8e6c82214_o.jpg",
+    "image_content": [
+      "Computer mouse"
+    ],
+    "question": "What is playing on the monitor?",
+    "gt_answer": "There is no monitor in the image.",
+    "model_answer": "There is no monitor visible in the image, and the scene depicts a horse race at a racetrack with jockeys, horses, and advertising banners. Therefore, no video or game is playing on a monitor.",
+    "original_image_src": "https://c6.staticflickr.com/8/7012/6406526537_1c876dded4_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "electronic",
+    "image_id": "10dda8b9e1534f15",
+    "image_src": "https://c7.staticflickr.com/3/2629/4219489460_4447e9da03_o.jpg",
+    "image_content": [
+      "Ipod",
+      "Mobile phone",
+      "Human hand",
+      "Telephone"
+    ],
+    "question": "Which electronic device is larger?",
+    "gt_answer": "The iPod touch on the left is larger than the iPod nano on the right.",
+    "model_answer": "None of the objects in the image are electronic devices. The image contains stuffed bears and Christmas decorations, which are not electronic. Therefore, there is no larger electronic device to compare.",
+    "original_image_src": "https://farm6.staticflickr.com/4013/4548634745_977535091a_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "electronic",
+    "image_id": "b59436505aa102e8",
+    "image_src": "https://farm8.staticflickr.com/3063/2500640631_a4c9abd52c_o.jpg",
+    "image_content": [
+      "Person",
+      "Telephone",
+      "Human hand",
+      "Mobile phone"
+    ],
+    "question": "How many mobile phones are there in the image?",
+    "gt_answer": "There is one mobile phone in the image.",
+    "model_answer": "0",
+    "original_image_src": "https://c1.staticflickr.com/2/1029/3352759027_94cb468a1f_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "electronic",
+    "image_id": "0f817e05eecad078",
+    "image_src": "https://c4.staticflickr.com/8/7211/7206072054_c53d53b97d_o.jpg",
+    "image_content": [
+      "Computer mouse"
+    ],
+    "question": "Is the mouse connected to a computer?",
+    "gt_answer": "No, the mouse is not connected to a computer.",
+    "model_answer": "No, there is no mouse in the image, and the question is not relevant to the picture.\n\nThe image shows a red and yellow fire hydrant on a paved surface, with some mulch or debris at its base. It does not contain any computer equipment or peripherals like a mouse.\n\nSo, the answer is: **No, because there is no mouse in the image.**",
+    "original_image_src": "https://c1.staticflickr.com/1/28/47604332_c306b496b5_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "electronic",
+    "image_id": "70a3d245181d6d88",
+    "image_src": "https://farm5.staticflickr.com/28/58465322_592ff01d31_o.jpg",
+    "image_content": [
+      "Mule"
+    ],
+    "question": "Where was the photo taken?",
+    "gt_answer": "The photo was taken outside with plants and mountains as surroundings.",
+    "model_answer": "The photo was taken in a bathroom. This is evident from the presence of a toilet paper holder with a roll of toilet paper, a urinal (visible on the left), and light blue tiled walls, all of which are common features in a bathroom setting.",
+    "original_image_src": "https://c1.staticflickr.com/6/5174/5393711070_4509c31205_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "electronic",
+    "image_id": "01a4b22028ed8133",
+    "image_src": "https://farm1.staticflickr.com/2572/4093922675_0e2f451fe0_o.jpg",
+    "image_content": [
+      "Television",
+      "Person"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image, I see a book, a pen, and a television on a table. The TV screen shows a man wearing a tie and a suit speaking in a park.",
+    "model_answer": "This is a clean, product-style photograph of a pair of black gloves against a plain white background.\n\nThe gloves are positioned with one slightly overlapping the other, angled to show both the front and back of the hands. They appear to be made of a smooth, flexible, and form-fitting material, likely a synthetic fabric such as spandex or a blend, designed for snugness and dexterity. The gloves are fully fingered, with distinct, separate finger sections and a rounded, slightly padded palm area.\n\nA key detail is the white logo on the back of the hand of the glove in the foreground. The logo is a stylized",
+    "original_image_src": "https://farm4.staticflickr.com/7415/12673135324_0973fca7b2_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "electronic",
+    "image_id": "ea32242f60eefff4",
+    "image_src": "https://farm6.staticflickr.com/8094/8431126135_cd1cf303e7_o.jpg",
+    "image_content": [
+      "Laptop",
+      "Computer keyboard"
+    ],
+    "question": "Is this a Macbook or Windows laptop?",
+    "gt_answer": "This is a Macbook, as indicated by the presence of the Apple logo on the keyboard.",
+    "model_answer": "Neither \u2014 this is a laundry room with a **General Electric washing machine** and **dryer**.\n\nThe appliances are vintage, likely from the 1970s or 1980s, based on their design and control panels. They\u2019re not laptops at all \u2014 they\u2019re household appliances used for washing and drying clothes. There\u2019s no MacBook or Windows laptop visible in the image.\n\nIf you\u2019re asking because you thought the image might be a laptop screen, it\u2019s not \u2014 it\u2019s a photo of a laundry set. \ud83d\ude0a",
+    "original_image_src": "https://farm5.staticflickr.com/1430/1172644431_3dabdd34b5_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "furniture",
+    "image_id": "efab1896bde1ae53",
+    "image_src": "https://c3.staticflickr.com/4/3213/3020281858_2d84b7bab7_o.jpg",
+    "image_content": [
+      "Sofa bed",
+      "Loveseat",
+      "Studio couch",
+      "Bed",
+      "Pillow"
+    ],
+    "question": "What are the colors of the pillows from left to right?",
+    "gt_answer": "The colors of the pillows from left to right are white (or grey), yellow, and white (or grey).",
+    "model_answer": "Based on the image provided, there are no pillows visible in the scene.\n\nThe image shows a kitchen with a dining area. The dining area has a white bench seat with a cushion, but it does not have any pillows on it. The only cushions or upholstered items are the white bench seat and possibly the back of the chairs, but no pillows are present.\n\nTherefore, there are no pillows to identify colors from left to right.",
+    "original_image_src": "https://farm4.staticflickr.com/8297/7818684444_d3de1dd27a_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "furniture",
+    "image_id": "cb1abb0fc94b341a",
+    "image_src": "https://c8.staticflickr.com/8/7295/9019477149_f7d04cdb65_o.jpg",
+    "image_content": [
+      "Window",
+      "House",
+      "Sofa bed",
+      "Studio couch",
+      "Bed"
+    ],
+    "question": "What is the color of the chair in the image?",
+    "gt_answer": "There is no chair in the image.",
+    "model_answer": "The image does not contain a chair. It shows the cover of a book titled \"ROVERBIAL PHILOSOPHY,\" which features ornate blue and gold decorative elements, including floral patterns and a large initial \"P.\" There is no chair visible in the image.",
+    "original_image_src": "https://c3.staticflickr.com/4/3169/2653797190_f42908d6e5_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "furniture",
+    "image_id": "6c98114a44982486",
+    "image_src": "https://c1.staticflickr.com/3/2935/13789278495_8545acd44c_o.jpg",
+    "image_content": [
+      "Pillow",
+      "Bed",
+      "Furniture",
+      "House",
+      "Building"
+    ],
+    "question": "Which pillow is closer to the camera?",
+    "gt_answer": "The pillow on the right side of the bed is closer to the camera.",
+    "model_answer": "There is no pillow in the image. The image shows a painting of a toucan perched among green leaves, with no pillows present.",
+    "original_image_src": "https://farm7.staticflickr.com/2026/2236797328_6c02e4d416_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "furniture",
+    "image_id": "61ef9eef568ab880",
+    "image_src": "https://farm5.staticflickr.com/1430/1172644431_3dabdd34b5_o.jpg",
+    "image_content": [
+      "Coffee table",
+      "Furniture",
+      "Sofa bed",
+      "Table",
+      "Chair",
+      "House",
+      "Sports equipment",
+      "Window",
+      "Billiard table"
+    ],
+    "question": "How many chairs are there in the image?",
+    "gt_answer": "There are two chairs in the image.",
+    "model_answer": "There are no chairs in the image. The image shows a close-up of a keyboard with blue backlighting, and no furniture or seating is visible.",
+    "original_image_src": "https://farm1.staticflickr.com/7426/9421545611_004f98acc2_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "furniture",
+    "image_id": "8263f3934588cd54",
+    "image_src": "https://farm7.staticflickr.com/1385/5164137805_a2499e3ca9_o.jpg",
+    "image_content": [
+      "Pillow",
+      "Human arm",
+      "Human body"
+    ],
+    "question": "Which pillow is in front of the other pillows?",
+    "gt_answer": "There are three pillows. The gray pillow in the middle with the red \"paper\" handprint pattern is in front of the other pillows. The other two pillows are white and have a red \"scissors\" handprint pattern and a \"stone\" handprint pattern, respectively.",
+    "model_answer": "There are no pillows in the image. The scene depicts a laundry room with a stacked washer and dryer unit, a bathroom vanity with a sink, and a mirror cabinet. There is no furniture or bedding that would include pillows.",
+    "original_image_src": "https://farm5.staticflickr.com/8035/8063845568_6b183760bc_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "furniture",
+    "image_id": "78767a54758dcd79",
+    "image_src": "https://farm7.staticflickr.com/4069/4654958099_df8364a87f_o.jpg",
+    "image_content": [
+      "Table",
+      "Furniture",
+      "Chair",
+      "Couch",
+      "House",
+      "Kitchen & dining room table",
+      "Fireplace"
+    ],
+    "question": "What was the weather like when this photo was taken?",
+    "gt_answer": "When this photo was taken, it was already night and the sky was dark.",
+    "model_answer": "Based on the image provided, it is not possible to determine the weather conditions when the photo was taken.\n\nThe image is a close-up shot of a sticker on a laptop, showing a design of a cassette tape with bones (a pirate-themed logo) on a dark background. The photo has a slightly grainy, vintage filter (resembling a Polaroid), but there are no visual cues \u2014 such as clouds, sunlight, shadows, rain, or wind \u2014 that would indicate the weather outside.\n\nThe photo appears to be taken indoors, as the laptop is resting on a wooden surface, and the lighting seems artificial or ambient indoor lighting. Therefore",
+    "original_image_src": "https://c2.staticflickr.com/4/3700/9536149248_661b279f89_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "furniture",
+    "image_id": "fdd6663c53007255",
+    "image_src": "https://c7.staticflickr.com/4/3210/2938079244_9e814f0e7a_o.jpg",
+    "image_content": [
+      "Bed"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image we can see two deck beds with pillows on them and carpet on the floor. The Beds are mainly in the blue color and the pillows are yellow with blue strips.",
+    "model_answer": "This is a dynamic, action-packed photograph capturing a thrilling moment during a night-time horse race. The scene is illuminated by bright artificial lights, creating sharp contrasts against the dark, blurred background of what appears to be a racetrack at night.\n\nThe image focuses on three jockeys and their horses in the midst of a fierce competition.\n\n**Foreground and Center:**\nThe most prominent figure is a jockey leaning dramatically forward over a dark brown horse. This jockey is wearing a white racing jacket with a red and black plaid pattern on the sleeves, white pants, and a black helmet. Their face is visible, showing intense",
+    "original_image_src": "https://farm6.staticflickr.com/2446/3859505368_6e432fbae2_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "furniture",
+    "image_id": "b6b1f6e7715d4f02",
+    "image_src": "https://c3.staticflickr.com/6/5223/5775946611_ef789718ed_o.jpg",
+    "image_content": [
+      "Bathroom cabinet",
+      "Toilet paper",
+      "Bathroom accessory",
+      "Door",
+      "Toilet"
+    ],
+    "question": "Is the toilet paper used?",
+    "gt_answer": "The toilet paper has not been used because it was folded into a decorative shape.",
+    "model_answer": "No, there is no toilet paper in the image. The image shows a group of zebras running across a grassy hillside, and there are no objects like toilet paper visible in the scene.",
+    "original_image_src": "https://farm3.staticflickr.com/1040/990306359_60994704df_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "indoor",
+    "image_id": "c0f90a125ff5ccf3",
+    "image_src": "https://c7.staticflickr.com/8/7234/7014520149_78feda0bef_o.jpg",
+    "image_content": [
+      "Book"
+    ],
+    "question": "What color are these books?",
+    "gt_answer": "These books are red and white.",
+    "model_answer": "Based on the image provided, the books are **stacked on the floor** in the bottom left corner, next to a small shelf.\n\nWhile the exact colors of the book spines are not perfectly clear due to the lighting and resolution, they appear to be **primarily red and/or orange**. The topmost book in the stack has a red cover, and the books beneath it seem to have similar warm-toned covers.\n\nSo, the books are **red and orange**.",
+    "original_image_src": "https://farm4.staticflickr.com/3048/2971924328_aeaf1258e0_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "indoor",
+    "image_id": "9b133468e850a8f8",
+    "image_src": "https://c2.staticflickr.com/8/7518/16269340471_154a27d9df_o.jpg",
+    "image_content": [
+      "Tableware",
+      "Bowl",
+      "Vase",
+      "Flowerpot"
+    ],
+    "question": "What is in the vase?",
+    "gt_answer": "Nothing is in the vase.",
+    "model_answer": "There is no vase visible in the image. The kitchen scene shows cabinets, countertops, a sink, an oven, and a window, but no vase or any object placed in one.",
+    "original_image_src": "https://c1.staticflickr.com/3/2631/4208064606_58b6907c83_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "indoor",
+    "image_id": "8535beba7fa530b1",
+    "image_src": "https://farm3.staticflickr.com/3640/3576366805_eea15333d5_o.jpg",
+    "image_content": [
+      "Vase"
+    ],
+    "question": "Which vase looks larger?",
+    "gt_answer": "The vase on the right appears larger. Both vases are white with blue and red flowers delicately painted on them.",
+    "model_answer": "Actually, there are no vases in this image. The image shows street signs, traffic lights, and buildings in an urban setting. If you're referring to the traffic lights, they are standard street signals, not vases. Let me know if you meant something else!",
+    "original_image_src": "https://farm2.staticflickr.com/3779/9040237050_b0af7bbf73_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "indoor",
+    "image_id": "9d56e36ffb80ecde",
+    "image_src": "https://farm6.staticflickr.com/4041/4234666745_63e51cc909_o.jpg",
+    "image_content": [
+      "Tree",
+      "Teddy bear",
+      "Plant",
+      "Mammal",
+      "Christmas tree"
+    ],
+    "question": "How many teddy bears are on the stairs?",
+    "gt_answer": "There are six teddy bears on the stairs.",
+    "model_answer": "There are no teddy bears on the stairs in the image. The image shows a dining table with chairs and a few glasses, and there are no stairs visible in the scene. Therefore, the number of teddy bears on the stairs is zero.",
+    "original_image_src": "https://c7.staticflickr.com/3/2629/4219489460_4447e9da03_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "indoor",
+    "image_id": "2664ce031523e2f9",
+    "image_src": "https://farm1.staticflickr.com/7426/9421545611_004f98acc2_o.jpg",
+    "image_content": [
+      "Flower",
+      "Houseplant",
+      "Flowerpot",
+      "Table",
+      "Building"
+    ],
+    "question": "Which color flowers are on top, and which color flowers are on the bottom?",
+    "gt_answer": "The blue flowers are on top, and the white flowers are on the bottom.",
+    "model_answer": "There are no flowers in this image.\n\nThe image shows a modern living room with a pool table, two egg-shaped armchairs, a sofa, and a coffee table. There is a small potted plant on a side table near the window, but it has green leaves and no visible flowers. Therefore, there are no flowers to identify colors for \u201con top\u201d or \u201con the bottom.\u201d",
+    "original_image_src": "https://c2.staticflickr.com/4/3810/9899405365_e2df3063b2_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "indoor",
+    "image_id": "58b8894b0151952e",
+    "image_src": "https://c7.staticflickr.com/1/100/315943393_e2c5dc5bd7_o.jpg",
+    "image_content": [
+      "Person",
+      "Chair",
+      "Window",
+      "Clothing",
+      "Table",
+      "Building",
+      "House",
+      "Furniture"
+    ],
+    "question": "What was the weather like when this photo was taken?",
+    "gt_answer": "When this photo was taken, it was already night and the sky was dark.",
+    "model_answer": "Based on the visual evidence in the image, the weather was **sunny and clear**.\n\nHere's the reasoning:\n\n- **Strong sunlight:** There are bright, distinct shadows cast by the cyclists and the trees on the grassy path. This indicates direct sunlight.\n- **Bright, well-lit scene:** The overall image is brightly lit, with vibrant green grass and leaves, suggesting a clear sky without significant cloud cover.\n- **No signs of rain or overcast conditions:** There is no mist, fog, or rain visible. The subjects are wearing helmets and are actively riding, which is typical for good weather.\n- **People dressed",
+    "original_image_src": "https://c7.staticflickr.com/8/7234/7014520149_78feda0bef_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "indoor",
+    "image_id": "5040c1ddd04d0415",
+    "image_src": "https://c1.staticflickr.com/6/5174/5393711070_4509c31205_o.jpg",
+    "image_content": [
+      "Human arm",
+      "Human body",
+      "Infant bed",
+      "Human leg",
+      "Person",
+      "Human nose",
+      "Clothing",
+      "Furniture",
+      "Human ear",
+      "Human eye",
+      "Human face",
+      "Human mouth",
+      "Human head",
+      "Boy",
+      "Human hair",
+      "Animal",
+      "Mammal",
+      "Teddy bear"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "The image features a baby lying in a crib, which is placed in a room with a white background. The baby is wearing a diaper and is sleeping soundly. There are three stuffed animals hanging above the crib, providing a cozy and comforting atmosphere for the baby.",
+    "model_answer": "This is a striking, surreal photograph that blends the natural world with retro technology. The central subject is a light-colored, possibly white or grey, donkey standing in a sunlit, grassy field with rolling hills in the background under a clear blue sky.\n\nThe donkey is outfitted with a traditional saddle blanket or pack saddle, which is a colorful, woven textile with a patchwork design. The pattern features geometric shapes in earthy tones\u2014browns, beiges, greys, and muted reds\u2014with stylized symbols, including what appear to be abstract representations of the number \"5\" or \"H\" in various",
+    "original_image_src": "https://farm6.staticflickr.com/225/489474293_a1e7bea6bc_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "indoor",
+    "image_id": "36a55efe7e823b7f",
+    "image_src": "https://farm6.staticflickr.com/225/489474293_a1e7bea6bc_o.jpg",
+    "image_content": [
+      "Book"
+    ],
+    "question": "What is the name of the book?",
+    "gt_answer": "The name of the book is \"Proverbial Philosophy.\"",
+    "model_answer": "I cannot determine the name of a book from this image, as there is no book visible in the picture. The image shows a baby sleeping in a white crib with a mobile of stuffed animals hanging above. There is no text or book cover visible.",
+    "original_image_src": "https://c8.staticflickr.com/8/7295/9019477149_f7d04cdb65_o.jpg"
+  },
+  {
+    "question_type": "attribute",
+    "question_topic": "appliance",
+    "image_id": "0b566984f99efd97",
+    "image_src": "https://c1.staticflickr.com/4/3386/3430256574_ab887d1df5_o.jpg",
+    "image_content": [
+      "Fruit"
+    ],
+    "question": "What is the color of the pot?",
+    "gt_answer": "The color of the pot is silver, with red cherries inside.",
+    "model_answer": "The image does not contain any pots. It depicts an urban scene with elevated train tracks, buildings, vehicles, and pedestrians. There are no visible pots in the image.",
+    "original_image_src": "https://farm8.staticflickr.com/2730/4272595396_785d273725_o.jpg"
+  },
+  {
+    "question_type": "adversarial",
+    "question_topic": "appliance",
+    "image_id": "0af4ba8fd2a7e628",
+    "image_src": "https://farm4.staticflickr.com/41/83372724_a17cceb078_o.jpg",
+    "image_content": [
+      "Bathroom accessory",
+      "Personal care",
+      "Sink",
+      "Tap"
+    ],
+    "question": "What is being washed in the sink?",
+    "gt_answer": "Nothing is being washed in the sink.",
+    "model_answer": "There is no sink visible in the image, and no washing activity is taking place. The image shows a person with face paint resembling a mustache and eyebrow, wearing a red hoodie over a blue shirt, against a dark background. The scene does not contain any sink or washing activity.",
+    "original_image_src": "https://c1.staticflickr.com/2/1425/689823158_b0bff45e0f_o.jpg"
+  },
+  {
+    "question_type": "comparison",
+    "question_topic": "appliance",
+    "image_id": "daded832e3ae26b5",
+    "image_src": "https://c6.staticflickr.com/2/1333/965561501_0b7e9aed90_o.jpg",
+    "image_content": [
+      "Kitchen appliance",
+      "Washing machine",
+      "Refrigerator"
+    ],
+    "question": "Which washing machine is taller?",
+    "gt_answer": "The right washing machine with the top load design is taller. Both are white in color.",
+    "model_answer": "Actually, there are no washing machines in this image. The picture shows a flock of sheep grazing in a grassy field. The sheep vary in size and color, but none are washing machines. If you're asking about the sheep, the tallest one in the image is the black sheep standing in the foreground, near the center of the frame. However, this is a misunderstanding \u2014 sheep are not washing machines. Let me know if you meant something else!",
+    "original_image_src": "https://farm6.staticflickr.com/8094/8431126135_cd1cf303e7_o.jpg"
+  },
+  {
+    "question_type": "counting",
+    "question_topic": "appliance",
+    "image_id": "2eb806ea6284ca7a",
+    "image_src": "https://c6.staticflickr.com/5/4079/4883309412_53b0b853d5_o.jpg",
+    "image_content": [
+      "Turkey",
+      "Bird",
+      "Animal",
+      "Baked goods"
+    ],
+    "question": "How many chickens are cooked?",
+    "gt_answer": "There is one cooked chicken in the image.",
+    "model_answer": "There are zero chickens cooked.\n\nThe image shows a wildlife enclosure with several large animals: a wildebeest in the foreground grazing, and two rhinoceroses in the background. There are no chickens visible anywhere in the image, and none are cooked \u2014 because there are no chickens at all.\n\nThis is a question based on a false premise \u2014 chickens are not present, so the number of cooked chickens is zero.",
+    "original_image_src": "https://c3.staticflickr.com/8/7145/6599551311_4afa756cf7_o.jpg"
+  },
+  {
+    "question_type": "relation",
+    "question_topic": "appliance",
+    "image_id": "1b6620d950202924",
+    "image_src": "https://c2.staticflickr.com/3/2374/2519330533_597840098a_o.jpg",
+    "image_content": [
+      "Toilet paper",
+      "Bathroom accessory"
+    ],
+    "question": "What is placed on the tissue paper roll?",
+    "gt_answer": "A screwdriver is placed on the tissue paper roll.",
+    "model_answer": "Based on the image provided, there is no tissue paper roll visible. The image shows a white plate with several raw, shucked oysters and a wedge of lemon. The oysters are arranged on the plate, and the lemon wedge is placed next to them, likely to be squeezed over the oysters for flavor.\n\nTherefore, nothing is placed on a tissue paper roll in this image.",
+    "original_image_src": "https://farm5.staticflickr.com/28/58465322_592ff01d31_o.jpg"
+  },
+  {
+    "question_type": "environment",
+    "question_topic": "appliance",
+    "image_id": "3692c7b2c4697ed9",
+    "image_src": "https://c6.staticflickr.com/8/7618/16875241476_3b79e5d79b_o.jpg",
+    "image_content": [
+      "Countertop",
+      "Tap",
+      "Kitchen appliance",
+      "Window",
+      "Oven",
+      "House",
+      "Microwave oven",
+      "Cabinetry",
+      "Home appliance",
+      "Plumbing fixture",
+      "Sink"
+    ],
+    "question": "What time was the photo taken?",
+    "gt_answer": "The photo was taken at daytime.",
+    "model_answer": "Based on the visual information in the image, it is not possible to determine the exact time it was taken.\n\nHere's why:\n- There are no visible clocks, digital displays, or time-stamped elements in the photo.\n- The traffic lights are red, but this only indicates the current traffic signal state, not the time of day.\n- The sky is overcast and gray, which could suggest morning, afternoon, or evening, but there are no shadows or sun position clues to pinpoint the hour.\n- The scene appears to be a quiet intersection with no people or moving vehicles, which doesn't provide a time reference.\n\nTherefore, the",
+    "original_image_src": "https://c2.staticflickr.com/8/7518/16269340471_154a27d9df_o.jpg"
+  },
+  {
+    "question_type": "holistic",
+    "question_topic": "appliance",
+    "image_id": "54568036521c53bd",
+    "image_src": "https://c8.staticflickr.com/5/4033/4523458956_0b78c6b298_o.jpg",
+    "image_content": [
+      "Food"
+    ],
+    "question": "Describe the image in detail.",
+    "gt_answer": "In this image, I can see food items (likely Baozi or buns) on papers and a tong kept on a metal stand in an oven and I can see steam on the glass. There are nine of them, arranged into a 3 x 3 grid.",
+    "model_answer": "This is a detailed, street-level photograph capturing a moment in an urban environment, likely in the United States, centered around a yellow school bus and a cyclist.\n\n**Main Subjects:**\n- **The School Bus:** A bright yellow school bus, prominently labeled \"OPERATOR: ABACO CARRIERS\" in blue lettering on its side. The bus also has \"SCHOOL BUS\" written in black above the front windshield and a \"COLLINS\" logo on the side. A red, octagonal \"STOP\" sign is mounted on the side of the bus, near the rear. The bus is a \"03",
+    "original_image_src": "https://c6.staticflickr.com/4/3247/3045172470_2e407f3602_o.jpg"
+  },
+  {
+    "question_type": "other",
+    "question_topic": "appliance",
+    "image_id": "cabbf79c0a4e40e6",
+    "image_src": "https://c1.staticflickr.com/3/2631/4208064606_58b6907c83_o.jpg",
+    "image_content": [
+      "Bathroom accessory",
+      "Washing machine",
+      "Drawer",
+      "Furniture",
+      "Bathroom cabinet",
+      "Cabinetry",
+      "Sink",
+      "Plumbing fixture"
+    ],
+    "question": "What is shown in the mirror?",
+    "gt_answer": "The mirrow shows the reflection of the washing machine.",
+    "model_answer": "Actually, the image does not show a mirror \u2014 there is no reflection or mirrored surface visible. The image displays a **ceramic pot or small vase** with a distinctive glaze.\n\nHere\u2019s what\u2019s shown:\n\n- **Shape**: A small, round, open-top container with a slightly flared rim.\n- **Glaze**: The interior is a deep, glossy blue, while the exterior has a crackled glaze effect \u2014 a pattern of fine, web-like cracks. The cracks reveal a darker, earthy tone beneath the blue glaze, giving it a textured, aged appearance.\n- **Color**: The exterior is predominantly a",
+    "original_image_src": "https://farm7.staticflickr.com/1385/5164137805_a2499e3ca9_o.jpg"
+  }
+]
