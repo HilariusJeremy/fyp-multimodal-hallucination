@@ -138,6 +138,13 @@ python -m lmms_eval \
   --limit 8
   --output_path ../../results/logs/<model-name>/pope_results.json
 ```
+## Models
+| Model | HuggingFace |
+|-------|-------------|
+| Qwen3-VL-4B-Instruct + DPO | [HilariusJeremy/qwen3vl-4b-dpo](https://huggingface.co/HilariusJeremy/qwen3vl-4b-dpo) | 
+| Qwen3-VL-4B-Instruct + DPO (text-only) | [HilariusJeremy/qwen3vl-4b-dpo-text-only](https://huggingface.co/HilariusJeremy/qwen3vl-4b-dpo-text-only) |
+| Qwen3-VL-4B-Instruct + SFT | [HilariusJeremy/qwen3vl-4b-sft](https://huggingface.co/HilariusJeremy/qwen3vl-4b-sft) |
+| Qwen3-VL-4B-Instruct + SFT + DPO | [HilariusJeremy/qwen3vl-4b-sft-dpo](https://huggingface.co/HilariusJeremy/qwen3vl-4b-sft-dpo) |
 
 ## Key Results
 | Model | POPE Adversarial F1 ↑ | MMHalBench Score ↑ | MMHalBench Hal Rate ↓ |
