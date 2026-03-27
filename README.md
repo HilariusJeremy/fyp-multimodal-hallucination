@@ -119,6 +119,7 @@ Evaluation results are saved to results/logs/ for comparison across model varian
 > Replicability note: MMHalBench scores are not guaranteed to be fully replicable. The GPT-4o judge is an external model with no random seed control, and scoring may vary slightly across API calls or model versions. Results should be treated as indicative rather than exact.
 
 ### POPE
+```bash
 cd external/lmms-eval
 python -m lmms_eval \
   --model qwen2_5_vl \
@@ -127,6 +128,9 @@ python -m lmms_eval \
   --batch_size 1 \
   --limit 8
   --output_path ../../results/logs/<model-name>/pope_results.json
+```
+
+
 
 
 
