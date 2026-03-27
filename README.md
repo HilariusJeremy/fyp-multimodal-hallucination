@@ -102,8 +102,17 @@ unzip data/raw/mmhalbench/test_data.zip -d data/raw/mmhalbench/
 **Step 2 - Run inference.** Generate model responses against the benchmark questions and place the output JSON in data/raw/mmhalbench/responses/:
 ```bash
 python scripts/inference_mmhalbench.py \
-    --model_path <path-to-checkpoint> \
-    --output_path data/raw/mmhalbench/responses/<response_name>.json
+    --model_path <path-to-checkpoint-or-hf-model-id> \
+    --output data/raw/mmhalbench/responses/response_<model_name>.json \
+    --max_new_tokens 512
+```
+Optionally pass `--adapter_path` to load a LoRA adapter on top of the base model without merging:
+```bash
+python scripts/inference_mmhalbench.py \
+    --model_path <path-to-base-model> \
+    --adapter_path <path-to-adapter> \
+    --output data/raw/mmhalbench/responses/response_<model_name>.json \
+    --max_new_tokens 512
 ```
 
 **Step 3 -  Score responses using LLM as the judge.**
