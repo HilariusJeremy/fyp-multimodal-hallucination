@@ -41,6 +41,7 @@ Download it once to data/raw/ using the HuggingFace CLI:
 huggingface-cli download openbmb/RLHF-V-Dataset --repo-type dataset --local-dir data/raw
 ```
 
+## Training
 ### SFT Training
 Run the conversion script to produce LLaMA-Factory-compatible files in data/processed/:
 ```bash
@@ -86,7 +87,39 @@ Perform merging for inference:
 llamafactory-cli export configs/merge/qwen3vl_lora_dpo_text_only.yaml
 ```
 
-### Evaluation
+## Evaluation
+### MMHal-Bench
+**Step 1 - Download the dataset.** The MMHalBench evaluation benchmark is sourced from [Shengcao1006/MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench/tree/main). Download it to data/raw/mmhalbench/:
+```bash
+huggingface-cli download Shengcao1006/MMHal-Bench --repo-type dataset --local-dir data/raw/mmhalbench
+```
+
+Unzip the test data after downloading:
+```bash
+unzip data/raw/mmhalbench/test_data.zip -d data/raw/mmhalbench/
+```
+
+**Step 2 - Run inference.** Generate model responses against the benchmark questions and place the output JSON in data/raw/mmhalbench/responses/:
+```bash
+python scripts/inference_mmhalbench.py \
+    --model_path <path-to-checkpoint> \
+    --output_path data/raw/mmhalbench/responses/<response_name>.json
+```
+
+**Step 3 -  Score responses using LLM as the judge.**
+cd data/raw/mmhalbench
+```bash
+python eval_gpt4.py \
+    --response responses/<response_name>.json \
+    --api-key <your-openai-api-key> \
+    --gpt-model gpt-4o \                  # or change as needed
+    --evaluation results/<response_name>.json
+```
+Evaluation results are saved to results/logs/ for comparison across model variants. Sample responses from previous runs are available in results/responses/ for reference.
+> Replicability note: MMHalBench scores are not guaranteed to be fully replicable. The GPT-4o judge is an external model with no random seed control, and scoring may vary slightly across API calls or model versions. Results should be treated as indicative rather than exact.
+
+
+
 
 
 
