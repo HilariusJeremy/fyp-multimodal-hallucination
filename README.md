@@ -62,7 +62,7 @@ Before running, set model_name_or_path in configs/train/qwen3vl_lora_dpo.yaml to
 
 To run DPO training:
 ```bash
-llamafactory-cli train configs/train/dpo_qwen3vl.yaml
+llamafactory-cli train configs/train/qwen3vl_lora_dpo.yaml
 ```
 
 Perform merging for inference:
@@ -85,6 +85,8 @@ Perform merging for inference:
 ```bash
 llamafactory-cli export configs/merge/qwen3vl_lora_dpo_text_only.yaml
 ```
+
+### Evaluation
 
 
 
