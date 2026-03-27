@@ -131,14 +131,13 @@ python -m lmms_eval \
 ```
 
 ## Key Results
-| Model | POPE F1 ↑ | MMHalBench Score ↑ |
-|-------|-----------|-------------------|
-| Qwen3-VL-4B-Instruct (baseline) | - | - |
-| + DPO | - | - |
-| + Change-Beta | - | - |
-| + SFT | - | - |
-| + SFT + DPO (ours) | - | - |
-
+| Model | POPE Adversarial F1 ↑ | MMHalBench Score ↑ | MMHalBench Hal Rate ↓ |
+|-------|-----------|-------------------|----------------------|
+| Qwen3-VL-4B-Instruct (baseline) | 0.8785 | 3.74 | 0.46 |
+| + DPO | 0.8766 | 3.92 | 0.41 |
+| + DPO (text-only) | 0.8765 | 3.81 | 0.46 |
+| + SFT | 0.8749 | 3.66 | **0.32** |
+| + SFT + DPO | 0.8731 | **4.43** | 0.34 |
 
 
 
