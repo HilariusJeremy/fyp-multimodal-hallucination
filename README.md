@@ -148,8 +148,8 @@ python -m lmms_eval \
 | + SFT | 0.8749 | 3.66 | **0.32** |
 | + SFT + DPO | 0.8731 | **4.43** | 0.34 |
 
-![Training Reward Dynamics](results/figures/training_dynamics.png)
-![Training Loss](results/figures/training_loss.png)
+![Training Reward Dynamics](results/figures/training_dynamics_plot.png)
+![Training Loss](results/figures/train_loss.png)
 
 
 
