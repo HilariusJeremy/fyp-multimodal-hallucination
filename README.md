@@ -118,6 +118,16 @@ python eval_gpt4.py \
 Evaluation results are saved to results/logs/ for comparison across model variants. Sample responses from previous runs are available in results/responses/ and final MMHalBench evaluation scores are in results/evals/ for reference.
 > Replicability note: MMHalBench scores are not guaranteed to be fully replicable. The GPT-4o judge is an external model with no random seed control, and scoring may vary slightly across API calls or model versions. Results should be treated as indicative rather than exact.
 
+### POPE
+cd external/lmms-eval
+python -m lmms_eval \
+  --model qwen2_5_vl \
+  --model_args pretrained=<path-to-checkpoint>\
+  --tasks pope_full \
+  --batch_size 1 \
+  --limit 8
+  --output_path ../../results/logs/<model-name>/pope_results.json
+
 
 
 
